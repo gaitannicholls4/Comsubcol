@@ -7,3 +7,8 @@ Description: Template for Comsubcol.
 Version: 1.0
 
 */
+
+.site-header {
+    top: 0;
+    background-color: #000;
+}
