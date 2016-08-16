@@ -1,7 +1,5 @@
 <?php get_header(); ?>
-<body>
-
-	
+	<body>
 	<div class="sidebar-menu-container" id="sidebar-menu-container">
 
 		<div class="sidebar-menu-push">
@@ -687,18 +685,4 @@
 		</nav>
 
 	</div>
-
-
-	
-
-	<script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-    <script src="assets/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="assets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-	<script type="text/javascript" src="assets/js/plugins.js"></script>
-	<script type="text/javascript" src="assets/js/custom.js"></script>
-
-</body>
-</html>
+<?php get_footer(); ?>
