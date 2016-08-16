@@ -10,7 +10,8 @@ README ( Listo NV )
 
 /wp-content/themes/Comsubcol/
 
-index.php
+header.php ( Listo NV )
+index.php NV ->
 style.css ( Listo NV )
 
 ----------------------------------------------------------------------------------------------------

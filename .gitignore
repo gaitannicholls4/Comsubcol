@@ -15,7 +15,7 @@
 /wp-content/themes/index.php
 /wp-content/index.php
 .htaccess
-index.php
+/index.php
 licencia.txt
 license.txt
 readme.html
