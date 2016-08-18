@@ -13,7 +13,10 @@ README ( Listo NV )
 footer.php ( Listo NV )
 functions.php NV ->
 header.php ( Listo NV )
-index.php NV ->
+index.php ( Listo NV )
+page-quienes-somos.php
+part-header.php ( Listo NV )
+part-slider.php ( Listo NV )
 style.css NV ->
 
 ----------------------------------------------------------------------------------------------------

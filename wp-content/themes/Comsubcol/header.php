@@ -24,3 +24,9 @@
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
 	</head>
+	<body>
+		<div class="sidebar-menu-container" id="sidebar-menu-container">
+			<div class="sidebar-menu-push">
+				<div class="sidebar-menu-overlay"></div>
+				<div class="sidebar-menu-inner">
+					<?php get_template_part( 'part', 'header' ); ?>
