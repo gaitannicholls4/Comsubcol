@@ -14,7 +14,8 @@ footer.php ( Listo NV )
 functions.php NV ->
 header.php ( Listo NV )
 index.php ( Listo NV )
-page-quienes-somos.php
+page-categorias.php NV ->
+page-quienes-somos.php NV ->
 part-header.php ( Listo NV )
 part-slider.php ( Listo NV )
 style.css NV ->
