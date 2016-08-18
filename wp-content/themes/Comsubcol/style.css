@@ -46,3 +46,26 @@ nav.main-navigation ul a {
 nav.main-navigation ul a:hover {
 	color: #ED1C24;
 }
+
+.first-line {
+	background: transparent;
+}
+
+.slider-thumb .thumb-item .top-content {
+	background-color: #ED1C24;
+}
+
+.slider-thumb .thumb-item .top-content span {
+	margin-left: 8px;
+	font-size: 10px;
+}
+
+.slider-thumb .thumb-item .top-content .span-bg {
+	background-color: #ED1C24;
+	border-left-color: #F3C14B;
+}
+
+.slider-thumb .thumb-item .top-content h2 {
+	background-color: #B2151B;
+	text-transform: none;
+}
