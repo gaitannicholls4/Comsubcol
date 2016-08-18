@@ -149,3 +149,7 @@ nav.main-navigation ul a:hover {
 #page-heading.categorias {
 	background-image: url(assets/images/categorias.jpg);
 }
+
+#page-heading.contactenos {
+	background-image: url(assets/images/contactenos.jpg);
+}
