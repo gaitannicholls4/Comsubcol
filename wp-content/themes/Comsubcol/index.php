@@ -25,9 +25,10 @@
 								<ul>
 									<li class="first-slide" data-transition="fade" data-slotamount="10" data-masterspeed="300">
 										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner_1.jpg" data-fullwidthcentering="on" alt="slide">
-										<div class="tp-caption first-line lft tp-resizeme start" data-x="center" data-hoffset="0" data-y="160" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Bienvenido a</div>
-										<div class="tp-caption second-line lfb tp-resizeme start" data-x="center" data-hoffset="0" data-y="210" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><strong>Subastas</strong> Colombia</div>
-										<div class="tp-caption third-line lfb tp-resizeme start" data-x="center" data-hoffset="0" data-y="280" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Visite las diferentes <em>categorías</em> de subasta</div>
+										<div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="160" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Bienvenido a</div>
+										<div class="tp-caption second-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="200" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><strong>Subastas</strong> Colombia</div>
+										<div class="tp-caption third-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="280" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Visite las diferentes <em>categorías</em> de subasta</div>
+										<div class="tp-caption fourth-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="320" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><a href="#">Inmbuebles</a></div>
 										<div class="tp-caption slider-thumb sfb tp-resizeme start container hidden-xs hidden-sm" data-x="center" data-hoffset="0" data-y="460" data-speed="1000" data-start="2200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">
 											<div class="col-md-4">
 												<a href="#">
@@ -78,9 +79,10 @@
 									</li>
 									<li class="first-slide" data-transition="fade" data-slotamount="10" data-masterspeed="300">
 										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner_2.jpg" data-fullwidthcentering="on" alt="slide">
-										<div class="tp-caption first-line lft tp-resizeme start" data-x="center" data-hoffset="0" data-y="160" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Bienvenido a</div>
-										<div class="tp-caption second-line lfb tp-resizeme start" data-x="center" data-hoffset="0" data-y="210" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><strong>Subastas</strong> Colombia</div>
-										<div class="tp-caption third-line lfb tp-resizeme start" data-x="center" data-hoffset="0" data-y="280" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Visite las diferentes <em>categorías</em> de subasta</div>
+										<div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="160" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Bienvenido a</div>
+										<div class="tp-caption second-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="200" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><strong>Subastas</strong> Colombia</div>
+										<div class="tp-caption third-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="280" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Visite las diferentes <em>categorías</em> de subasta</div>
+										<div class="tp-caption fourth-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="320" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><a href="#">Automóviles y Motos</a></div>
 										<div class="tp-caption slider-thumb sfb tp-resizeme start container hidden-xs hidden-sm" data-x="center" data-hoffset="0" data-y="460" data-speed="1000" data-start="2200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">
 											<div class="col-md-4">
 												<a href="#">
@@ -439,7 +441,7 @@
 					</div>
 				</div>-->
 
-				<footer>
+				<!--<footer>
 					<div class="container">
 						<div class="row">
 							<div class="col-md-3">
@@ -524,9 +526,9 @@
 							</div>
 						</div>
 					</div>
-				</footer>
+				</footer>-->
 
-				<div id="sub-footer">
+				<!--<div id="sub-footer">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 col-sm-12">
@@ -544,7 +546,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 
 				<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
 

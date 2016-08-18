@@ -8,6 +8,28 @@ Version: 1.0
 
 */
 
+/* General */
+
+@font-face {
+	font-family: "Source Sans Pro ExtraLight";
+	src: url(assets/fonts/SourceSansPro-ExtraLight.otf);
+}
+
+@font-face {
+	font-family: "Source Sans Pro Light";
+	src: url(assets/fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+	font-family: "Myriad Pro Condensed";
+	src: url(assets/fonts/MyriadPro-Cond.otf);
+}
+
+@font-face {
+	font-family: "Helvetica Neue UltraLight";
+	src: url(assets/fonts/helvetica-neue-ultra-light.ttf);
+}
+
 /* Changes */
 
 .site-header {
@@ -25,7 +47,9 @@ nav.main-navigation ul li:nth-child(5) {
 }
 
 nav.main-navigation ul li:nth-child(5) a {
-	text-transform: capitalize;
+	font-family: "Source Sans Pro ExtraLight";
+	font-size: 13px;
+	text-transform: none;
 }
 
 nav.main-navigation ul li:last-child {
@@ -48,7 +72,46 @@ nav.main-navigation ul a:hover {
 }
 
 .first-line {
+	padding: 0 10px;
 	background: transparent;
+	font-family: "Source Sans Pro Light";
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.second-line {
+	padding: 0 10px;
+	font-family: "Helvetica Neue UltraLight";
+	font-size: 70px;
+	font-weight: normal;
+	line-height: 70px;
+}
+
+.second-line strong {
+	font-family: "Myriad Pro Condensed";
+}
+
+.third-line {
+	padding: 0 10px;
+	font-family: "Source Sans Pro Light";
+	font-size: 14px;
+}
+
+.third-line em {
+	color: #ED1C24;
+}
+
+.fourth-line {
+	margin: 0 10px;
+	padding: 10px 30px;
+	background-color: #B2151B;
+}
+
+.fourth-line a {
+	font-family: "Myriad Pro Condensed";
+	font-size: 14px;
+	color: #FFF;
+	text-transform: uppercase;
 }
 
 .slider-thumb .thumb-item .top-content {

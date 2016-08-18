@@ -24,6 +24,12 @@ index.html ( Listo NV )
 
 ----------------------------------------------------------------------------------------------------
 
+/wp-content/themes/Comsubcol/assets/fonts/
+
+index.html ( Listo NV )
+
+----------------------------------------------------------------------------------------------------
+
 /wp-content/themes/Comsubcol/assets/images/
 
 index.html ( Listo NV )
