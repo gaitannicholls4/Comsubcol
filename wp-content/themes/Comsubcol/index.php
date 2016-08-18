@@ -35,7 +35,7 @@
 						<div id="main-header" class="main-header header-sticky">
 							<div class="inner-header container clearfix">
 								<div class="logo">
-									<a href="index.html"><img src="assets/images/logo.png" title="" alt=""></a>
+									<a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" title="" alt=""></a>
 								</div>
 								<div class="header-right-toggle pull-right hidden-md hidden-lg">
 									<a href="javascript:void(0)" class="side-menu-button"><i class="fa fa-bars"></i></a>
@@ -230,7 +230,7 @@ fa fa-close"></i></a></p>
 					</div>
 				</div>
 
-				<div id="cta-1">
+				<!--<div id="cta-1">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -241,9 +241,9 @@ fa fa-close"></i></a></p>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 
-				<section class="why-us">
+				<!--<section class="why-us">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8">
@@ -301,9 +301,9 @@ fa fa-close"></i></a></p>
 							</div>
 						</div>
 					</div>
-				</section>
+				</section>-->
 
-				<section class="featured-listing">
+				<!--<section class="featured-listing">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-md-12">
@@ -400,9 +400,9 @@ fa fa-close"></i></a></p>
 							</div>
 						</div>
 					</div>
-				</section>
+				</section>-->
 
-				<section class="blog-news">
+				<!--<section class="blog-news">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -463,9 +463,9 @@ fa fa-close"></i></a></p>
 							</div>
 						</div>
 					</div>
-				</section>
+				</section>-->
 
-				<section class="clients">
+				<!--<section class="clients">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
@@ -504,9 +504,9 @@ fa fa-close"></i></a></p>
 							</div>
 						</div>
 					</div>
-				</section>
+				</section>-->
 
-				<div id="cta-2">
+				<!--<div id="cta-2">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8 col-sm-12">
@@ -533,7 +533,7 @@ fa fa-close"></i></a></p>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 
 				<footer>
 					<div class="container">

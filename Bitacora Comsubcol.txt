@@ -2,7 +2,7 @@
 
 /
 
-.gitignore NV ( Listo NV )
+.gitignore ( Listo NV )
 Bitacora Comsubcol.txt NV ->
 README ( Listo NV )
 
@@ -14,6 +14,6 @@ footer.php ( Listo NV )
 functions.php NV ->
 header.php ( Listo NV )
 index.php NV ->
-style.css ( Listo NV )
+style.css NV ->
 
 ----------------------------------------------------------------------------------------------------
