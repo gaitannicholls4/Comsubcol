@@ -14,3 +14,35 @@ Version: 1.0
 	top: 0;
 	background-color: #000;
 }
+
+.site-header .main-header .logo {
+	border-right: none;
+}
+
+nav.main-navigation ul li:nth-child(5) {
+	background: url(assets/images/iniciar_sesion_li_bg.png) no-repeat;
+	background-position: left;
+}
+
+nav.main-navigation ul li:nth-child(5) a {
+	text-transform: capitalize;
+}
+
+nav.main-navigation ul li:last-child {
+	float: none;
+}
+
+nav.main-navigation ul li:last-child i {
+	width: auto;
+	height: auto;
+	margin-top: 0;
+	background-color: transparent;
+}
+
+nav.main-navigation ul a {
+	color: #FFF;
+}
+
+nav.main-navigation ul a:hover {
+	color: #ED1C24;
+}
