@@ -13,7 +13,7 @@ function register_my_menus() {
 	register_nav_menus(
 		array(
 			'main-menu' => __( 'Main Menu' ),
-			'extra-menu' => __( 'Extra Menu' )
+			'categories-menu' => __( 'Categories Menu' )
 		)
 	);
 }
