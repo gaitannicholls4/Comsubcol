@@ -24,6 +24,7 @@ add_action( 'init', 'register_my_menus' );
 */
 function my_custom_menu_item( $items, $args ) {
 	if ( $args->theme_location == 'main-menu' ) {
+		$items .= '<li><a href="#"><i class="fa fa-star"></i></a></li>';
 		$items .= '<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>';
 	}
 	return $items;

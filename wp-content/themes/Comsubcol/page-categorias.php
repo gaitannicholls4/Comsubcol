@@ -18,6 +18,9 @@ Template Name: Categorias
 			</div>
 		</div>
 	</div>
+<div>
+	<?php wp_nav_menu( array( 'theme_location' => 'categories-menu' ) ); ?>
+</div>
 <section class="listing-grid">
 					<div class="container">
 						<div class="row">
