@@ -28,6 +28,19 @@ function my_styles_files() {
 add_action( 'wp_enqueue_scripts', 'my_styles_files' );
 
 /*
+* Function to add my scripts files
+*/
+function my_scripts_files() {
+	wp_enqueue_script( 'jquery-js', get_template_directory_uri() . '/assets/js/jquery-1.11.1.min.js', false );
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', false );
+	wp_enqueue_script( 'rs-plugin-1-js', get_template_directory_uri() . '/assets/rs-plugin/js/jquery.themepunch.tools.min.js', false );
+	wp_enqueue_script( 'rs-plugin-2-js', get_template_directory_uri() . '/assets/rs-plugin/js/jquery.themepunch.revolution.min.js', false );
+	wp_enqueue_script( 'plugin-js', get_template_directory_uri() . '/assets/js/plugins.js', false );
+	wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/assets/js/custom.js', false );
+}
+add_action( 'wp_enqueue_scripts', 'my_scripts_files' );
+
+/*
 * Function to register my menus
 */
 function register_my_menus() {
