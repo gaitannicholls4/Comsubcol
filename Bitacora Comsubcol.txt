@@ -17,6 +17,7 @@ index.php ( Listo NV )
 page-categorias.php NV ->
 page-contactenos.php NV ->
 page-quienes-somos.php ( Listo NV )
+page.php NV ->
 part-header.php ( Listo NV )
 part-slider.php ( Listo NV )
 style.css NV ->

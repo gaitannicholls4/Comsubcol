@@ -142,6 +142,10 @@ nav.main-navigation ul a:hover {
 	padding-bottom: 75px;
 }
 
+#page-heading.general {
+	background-image: url(assets/images/general.jpg);
+}
+
 #page-heading.quienes-somos {
 	background-image: url(assets/images/quienes-somos.jpg);
 }
