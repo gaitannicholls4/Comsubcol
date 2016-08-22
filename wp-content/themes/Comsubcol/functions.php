@@ -60,6 +60,7 @@ function my_custom_menu_item( $items, $args ) {
 	if ( $args->theme_location == 'main-menu' ) {
 		$items .= '<li><a href="#"><i class="fa fa-star"></i></a></li>';
 		$items .= '<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>';
+		$items .= '<li><a href="/comsubcol/categorias/wp-admin"><i class="fa fa-user"></i></a></li>';
 	}
 	return $items;
 }
