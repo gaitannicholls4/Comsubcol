@@ -193,7 +193,7 @@ function wdm_category_menu_listing($show_data){
 		
 		$bottom_text .= '<div class="wdm_clear"></div>';
 		
-		$show_data = '<div id="wdmua_wrap_container" class="wdmua_wrap">
+		$show_data = '<!--<div id="wdmua_wrap_container" class="wdmua_wrap">
 		<div class="demo-container">
 
 			<div class="wdm_ua_mgmn">  
@@ -211,7 +211,7 @@ function wdm_category_menu_listing($show_data){
 				$show_data .= '</ul>
 			</div>
 		</div>
-	</div>';
+	</div>-->';
 
 	return $show_data;
 }

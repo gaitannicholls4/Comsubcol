@@ -44,14 +44,14 @@ index.html ( Listo NV )
 
 /wp-content/themes/Comsubcol/custom-ultimate-auction-pro-personal/
 
-auction-feeder-page.php
+auction-feeder-page.php ( Modificado NV )
 index.html ( Listo NV )
 
 ----------------------------------------------------------------------------------------------------
 
 /wp-content/themes/Comsubcol/custom-ultimate-auction-pro-personal/ua-category-feature/
 
-category-menu.php
+category-menu.php ( Modificado NV )
 index.html ( Listo NV )
 
 ----------------------------------------------------------------------------------------------------
