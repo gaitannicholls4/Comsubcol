@@ -60,9 +60,11 @@ add_action( 'init', 'register_my_menus' );
 */
 function my_custom_menu_item( $items, $args ) {
 	if ( $args->theme_location == 'main-menu' ) {
-		$items .= '<li><a href="#"><i class="fa fa-star"></i></a></li>';
+		$items .= '<li><a href="/comsubcol/login" class="fancybox-login" data-fancybox-type="iframe">Iniciar sesión</li>';
+		$items .= '<li><a href="#" class="fancybox-login"><i class="fa fa-star"></i></a></li>';
 		$items .= '<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>';
-		$items .= '<li><a href="/comsubcol/categorias/wp-admin"><i class="fa fa-user"></i></a></li>';
+		$items .= '<li><a href="#"><i class="fa fa-user"></i></a></li>';
+		$items .= '<li><a href=""></a></li>';
 	}
 	return $items;
 }

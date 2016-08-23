@@ -389,6 +389,8 @@ jQuery(document).ready(function ($) {
 
 /* Custom */
 
+$( '.fancybox-login' ).fancybox();
+
 var categorias = $( '#menu-categories-menu' );
 categorias.owlCarousel({
 	itemsCustom: [
