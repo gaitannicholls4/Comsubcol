@@ -157,3 +157,32 @@ nav.main-navigation ul a:hover {
 #page-heading.contactenos {
 	background-image: url(assets/images/contactenos.jpg);
 }
+
+/* Custom */
+
+.csc_buttom_bid {
+	padding: 0 15px;
+	background-color: #ED1C24;
+	border: none;
+	font-family: "Source Sans Pro Light";
+	font-size: 13px;
+	line-height: 34px;
+	color: #FFF;
+	text-transform: uppercase;
+	float: right;
+	position: relative;
+}
+
+.csc_time_bid {
+	padding: 0 15px;
+	background-color: #39B54A;
+	font-family: "Source Sans Pro Light";
+	font-size: 13px;
+	line-height: 30px;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.csc_clear {
+	clear: both;
+}
