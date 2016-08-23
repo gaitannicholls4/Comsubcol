@@ -67,6 +67,7 @@ nav.main-navigation ul a {
 	color: #FFF;
 }
 
+nav.main-navigation ul li.current-menu-item a,
 nav.main-navigation ul a:hover {
 	color: #ED1C24;
 }
@@ -179,6 +180,47 @@ nav.main-navigation ul a:hover {
 }
 
 /* Custom */
+
+.csc_menu_categories .prev {
+	background: url(assets/images/owl_prev.png) no-repeat;
+}
+
+.csc_menu_categories .next {
+	background: url(assets/images/owl_next.png) no-repeat;
+}
+
+.csc_menu_categories .prev,
+.csc_menu_categories .next {
+	background-position: center;
+	font-size: 0;
+	line-height: 45px;
+}
+
+.csc_menu_categories .owl-controls {
+	display: none !important;
+}
+
+ul#menu-categories-menu {
+	list-style: none;
+}
+
+ul#menu-categories-menu li {
+	float: left;
+	position: relative;
+}
+
+ul#menu-categories-menu a {
+	padding: 20px;
+	font-family: "Myriad Pro Condensed";
+	color: #6D6E71;
+	text-transform: uppercase;
+	display: block;
+}
+
+ul#menu-categories-menu li.current-menu-item a,
+ul#menu-categories-menu a:hover {
+	color: #ED1C24;
+}
 
 .csc_buttom_bid {
 	padding: 0 15px;

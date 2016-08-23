@@ -18,12 +18,14 @@ Template Name: Categorias
 			</div>
 		</div>
 	</div>
-	<div>
+	<div class="csc_menu_categories">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-sm-1 text-center"><a class="btn prev">P</a></div>
+				<div class="col-sm-10">
 					<?php wp_nav_menu( array( 'theme_location' => 'categories-menu' ) ); ?>
 				</div>
+				<div class="col-sm-1 text-center"><a class="btn next">N</a></div>
 			</div>
 		</div>
 	</div>

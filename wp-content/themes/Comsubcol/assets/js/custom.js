@@ -387,4 +387,20 @@ jQuery(document).ready(function ($) {
 		
 		
 
+/* Custom */
+
+var categorias = $( '#menu-categories-menu' );
+categorias.owlCarousel({
+	itemsCustom: [
+		[0, 1],
+		[400, 4]
+	]
+});
+$( '.prev' ).click(function() {
+	categorias.trigger( 'owl.prev' );
+});
+$( '.next' ).click(function() {
+	categorias.trigger( 'owl.next' );
+});
+
 });
