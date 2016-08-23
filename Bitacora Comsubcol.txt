@@ -43,6 +43,13 @@ index.html ( Listo NV )
 
 ----------------------------------------------------------------------------------------------------
 
+/wp-content/themes/Comsubcol/assets/js/
+
+custom.js ( Modificado NV )
+index.html ( Listo NV )
+
+----------------------------------------------------------------------------------------------------
+
 /wp-content/themes/Comsubcol/custom-ultimate-auction-pro-personal/
 
 auction-feeder-page.php ( Modificado NV )

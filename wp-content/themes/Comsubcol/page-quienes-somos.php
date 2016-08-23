@@ -11,7 +11,7 @@ Template Name: Quienes Somos
 	<div id="page-heading" class="quienes-somos">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-md-6 col-md-offset-3 text-center black">
 					<h1>ARTÍCULOS DE CALIDAD</h1>
 					<span>CON LOS MEJORES PRECIOS</span>
 				</div>

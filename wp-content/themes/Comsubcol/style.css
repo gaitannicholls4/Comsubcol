@@ -146,8 +146,20 @@ nav.main-navigation ul a:hover {
 	padding-top: 190px;
 }
 
-#page-heading span {
-	padding-bottom: 75px;
+#page-heading .black {
+	margin-bottom: 75px;
+	padding: 25px 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#page-heading .black h1 {
+	font-family: "Myriad Pro Condensed";
+}
+
+#page-heading .black span {
+	padding-bottom: 0;
+	font-family: "Source Sans Pro ExtraLight";
+	font-size: 14px;
 }
 
 #page-heading.general {
