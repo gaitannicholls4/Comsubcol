@@ -327,6 +327,7 @@ jQuery(document).ready(function ($) {
 		// revolution slider
 		$('.fullwidthbanner').revolution({
         	delay:6000,
+			autoHeight: "on",
         	startwidth:1170,
         	startheight:680,
         	onHoverStop: "off",

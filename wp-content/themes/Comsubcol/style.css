@@ -71,6 +71,10 @@ nav.main-navigation ul a:hover {
 	color: #ED1C24;
 }
 
+.slider {
+	margin-top: 0;
+}
+
 .first-line {
 	padding: 0 10px;
 	background: transparent;
@@ -112,6 +116,10 @@ nav.main-navigation ul a:hover {
 	font-size: 14px;
 	color: #FFF;
 	text-transform: uppercase;
+}
+
+.slider-thumb .thumb-item img {
+	width: 100%;
 }
 
 .slider-thumb .thumb-item .top-content {
