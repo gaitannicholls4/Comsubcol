@@ -20,6 +20,7 @@ function my_styles_files() {
 	wp_enqueue_style( 'icon-font-css', get_template_directory_uri() . '/assets/css/icon-font.css', false );
 	wp_enqueue_style( 'auction-css', get_template_directory_uri() . '/assets/css/auction.css', false );
 	wp_enqueue_style( 'rs-plugin-css', get_template_directory_uri() . '/assets/rs-plugin/css/settings.css', false );
+	wp_enqueue_style( 'fancybox-css', get_template_directory_uri() . '/assets/js/jquery/fancybox/jquery.fancybox.css', false );
 	if ( is_child_theme() ) {
 		wp_enqueue_style( 'parent-css', trailingslashit( get_template_directory_uri() ) . 'style.css', false );
 	}
@@ -36,6 +37,7 @@ function my_scripts_files() {
 	wp_enqueue_script( 'rs-plugin-1-js', get_template_directory_uri() . '/assets/rs-plugin/js/jquery.themepunch.tools.min.js', false );
 	wp_enqueue_script( 'rs-plugin-2-js', get_template_directory_uri() . '/assets/rs-plugin/js/jquery.themepunch.revolution.min.js', false );
 	wp_enqueue_script( 'plugin-js', get_template_directory_uri() . '/assets/js/plugins.js', false );
+	wp_enqueue_script( 'fancybox-js', get_template_directory_uri() . '/assets/js/jquery/fancybox/jquery.fancybox.pack.js', false );
 	wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/assets/js/custom.js', false );
 }
 add_action( 'wp_enqueue_scripts', 'my_scripts_files' );

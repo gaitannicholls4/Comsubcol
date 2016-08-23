@@ -50,6 +50,24 @@ index.html ( Listo NV )
 
 ----------------------------------------------------------------------------------------------------
 
+/wp-content/themes/Comsubcol/assets/js/jquery/
+
+index.html ( Listo NV )
+
+----------------------------------------------------------------------------------------------------
+
+/wp-content/themes/Comsubcol/assets/js/jquery/fancybox/
+
+index.html ( Listo NV )
+
+----------------------------------------------------------------------------------------------------
+
+/wp-content/themes/Comsubcol/assets/js/jquery/fancybox/helpers/
+
+index.html ( Listo NV )
+
+----------------------------------------------------------------------------------------------------
+
 /wp-content/themes/Comsubcol/custom-ultimate-auction-pro-personal/
 
 auction-feeder-page.php ( Modificado NV )
