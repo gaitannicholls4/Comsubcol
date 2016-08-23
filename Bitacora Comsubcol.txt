@@ -41,3 +41,17 @@ index.html ( Listo NV )
 index.html ( Listo NV )
 
 ----------------------------------------------------------------------------------------------------
+
+/wp-content/themes/Comsubcol/custom-ultimate-auction-pro-personal/
+
+auction-feeder-page.php
+index.html ( Listo NV )
+
+----------------------------------------------------------------------------------------------------
+
+/wp-content/themes/Comsubcol/custom-ultimate-auction-pro-personal/ua-category-feature/
+
+category-menu.php
+index.html ( Listo NV )
+
+----------------------------------------------------------------------------------------------------
