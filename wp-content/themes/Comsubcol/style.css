@@ -222,6 +222,42 @@ nav.main-navigation ul a:hover {
 	text-transform: uppercase;
 }
 
+.fancybox-wrap {
+	z-index: 100020;
+}
+
+.fancybox-opened {
+	z-index: 100030;
+}
+
+#fancybox-loading {
+	z-index: 100060;
+}
+
+.fancybox-close {
+	z-index: 100040;
+}
+
+.fancybox-nav {
+	z-index: 100040;
+}
+
+.fancybox-nav span {
+	z-index: 100040;
+}
+
+.fancybox-overlay {
+	z-index: 100010;
+}
+
+.fancybox-title {
+	z-index: 100050;
+}
+
+.fancybox-title-float-wrap {
+	z-index: 100050;
+}
+
 /* Custom */
 
 .csc_menu_categories .prev {
