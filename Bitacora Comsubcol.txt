@@ -15,7 +15,7 @@ functions.php NV ->
 header.php ( Listo NV )
 index.php ( Listo NV )
 page-categorias.php ( Listo NV )
-page-contactenos.php NV ->
+page-contactenos.php ( Listo NV )
 page-quienes-somos.php ( Listo NV )
 page.php ( Listo NV )
 part-header.php ( Listo NV )

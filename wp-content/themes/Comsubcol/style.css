@@ -179,6 +179,49 @@ nav.main-navigation ul a:hover {
 	background-image: url(assets/images/contactenos.jpg);
 }
 
+.contact-form #contact_form input.name {
+	background-image: url(assets/images/name-icon.png);
+	background-position: 10px;
+	background-repeat: no-repeat;
+}
+
+.contact-form #contact_form input.email {
+	background-image: url(assets/images/email-icon.png);
+	background-position: 10px;
+	background-repeat: no-repeat;
+}
+
+.contact-form #contact_form input.phone {
+	background-image: url(assets/images/phone-icon.png);
+	background-position: 10px;
+	background-repeat: no-repeat;
+}
+
+.contact-form #contact_form input.site {
+	background-image: url(assets/images/site-icon.png);
+	background-position: 10px;
+	background-repeat: no-repeat;
+}
+
+.contact-form #contact_form textarea.message {
+	background-image: url(assets/images/message-icon.png);
+	background-position: top left;
+	background-position: 10px 15px;
+	background-repeat: no-repeat;
+}
+
+.contact-form #contact_form input[type="submit"] {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: #222222;
+	text-transform: uppercase;
+}
+
 /* Custom */
 
 .csc_menu_categories .prev {
