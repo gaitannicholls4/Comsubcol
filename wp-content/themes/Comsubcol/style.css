@@ -262,6 +262,16 @@ nav.main-navigation ul a:hover {
 	z-index: 100050;
 }
 
+.fancybox-skin {
+	margin: 0 !important;
+	padding: 0 !important;
+	background: transparent;
+}
+
+.fancybox-inner {
+	overflow: hidden !important;
+}
+
 /* ---------- Custom ---------- */
 
 /* Quiénes Somos */
@@ -343,6 +353,59 @@ ul#menu-categories-menu a:hover {
 	line-height: 30px;
 	color: #FFF;
 	text-transform: uppercase;
+}
+
+/* Pop Up */
+
+.csc_pop_up {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.csc_pop_up .csc_container {
+	width: 500px;
+	margin: auto;
+	padding: 20px 10px;
+}
+
+.csc_pop_up h1 {
+	margin: 0;
+	font-family: "Myriad Pro Condensed";
+	font-size: 20px;
+	color: #ED1C24;
+	text-transform: uppercase;
+}
+
+.csc_pop_up .um-field-label,
+.csc_pop_up .um-field-checkbox-option {
+	font-family: "Myriad Pro Condensed";
+	font-size: 20px !important;
+	color: #FFF !important;
+}
+
+.csc_pop_up .um-form-field {
+	background-color: transparent !important;
+	color: #FFF !important;
+}
+
+.csc_pop_up .um-41.um .um-form input[type="text"],
+.csc_pop_up .um-41.um .um-form input[type="password"],
+.csc_pop_up .um-42.um .um-form input[type="text"],
+.csc_pop_up .um-42.um .um-form input[type="password"],
+.csc_pop_up .um-um_password_id.um .um-form input[type="text"] {
+	border: 1px solid #BCBEC0 !important;
+}
+
+.csc_pop_up .um-field-checkbox-option {
+	font-size: 16px !important;
+}
+
+.csc_pop_up .um-button {
+	text-transform: uppercase !important;
+}
+
+.csc_pop_up .um-link-alt,
+.csc_pop_up .um-field-block {
+	color: #FFF !important;
 }
 
 /* Others */

@@ -387,9 +387,9 @@ jQuery(document).ready(function ($) {
 		
 		
 
-/* Custom */
+/* ---------- Custom ---------- */
 
-$( '.fancybox-login' ).fancybox();
+/* Categorías */
 
 var categorias = $( '#menu-categories-menu' );
 categorias.owlCarousel({
@@ -403,6 +403,12 @@ $( '.prev' ).click(function() {
 });
 $( '.next' ).click(function() {
 	categorias.trigger( 'owl.next' );
+});
+
+/* Pop Up */
+
+$( '.fancybox-login' ).fancybox({
+	maxHeight: 500
 });
 
 });
