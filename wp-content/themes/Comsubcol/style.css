@@ -8,7 +8,7 @@ Version: 1.0
 
 */
 
-/* General */
+/* ---------- General ---------- */
 
 @font-face {
 	font-family: "Source Sans Pro ExtraLight";
@@ -30,7 +30,7 @@ Version: 1.0
 	src: url(assets/fonts/helvetica-neue-ultra-light.ttf);
 }
 
-/* Changes */
+/* ---------- Changes ---------- */
 
 .site-header {
 	top: 0;
@@ -179,6 +179,10 @@ nav.main-navigation ul a:hover {
 	background-image: url(assets/images/contactenos.jpg);
 }
 
+.meet-team {
+	background-color: #FFF;
+}
+
 .contact-form #contact_form input.name {
 	background-image: url(assets/images/name-icon.png);
 	background-position: 10px;
@@ -258,7 +262,24 @@ nav.main-navigation ul a:hover {
 	z-index: 100050;
 }
 
-/* Custom */
+/* ---------- Custom ---------- */
+
+/* Quiénes Somos */
+
+.csc_red_line {
+	width: 50px;
+	height: 4px;
+	margin: 40px auto;
+	background-color: #ED1C24;
+}
+
+.csv_box_grey {
+	min-height: 322px;
+	padding: 60px 40px;
+	background-color: #F5FAFE;
+}
+
+/* Categorías */
 
 .csc_menu_categories .prev {
 	background: url(assets/images/owl_prev.png) no-repeat;
@@ -323,6 +344,8 @@ ul#menu-categories-menu a:hover {
 	color: #FFF;
 	text-transform: uppercase;
 }
+
+/* Others */
 
 .csc_clear {
 	clear: both;
