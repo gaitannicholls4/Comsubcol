@@ -391,6 +391,8 @@ ul#menu-categories-menu a:hover {
 .csc_pop_up .um-41.um .um-form input[type="password"],
 .csc_pop_up .um-42.um .um-form input[type="text"],
 .csc_pop_up .um-42.um .um-form input[type="password"],
+.csc_pop_up .um-1046.um .um-form input[type="text"],
+.csc_pop_up .um-1046.um .um-form input[type="password"],
 .csc_pop_up .um-um_password_id.um .um-form input[type="text"] {
 	border: 1px solid #BCBEC0 !important;
 }
