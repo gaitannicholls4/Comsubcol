@@ -7,8 +7,8 @@ Functions for my template
 */
 
 /*
-* Function to add my styles files
-*/
+ * Function to add my styles files
+ */
 function my_styles_files() {
 	wp_enqueue_style( 'montserrat-css', 'https://fonts.googleapis.com/css?family=Montserrat:400,700', false );
 	wp_enqueue_style( 'roboto-css', 'https://fonts.googleapis.com/css?family=Roboto:400,300,500,700', false );
@@ -29,8 +29,8 @@ function my_styles_files() {
 add_action( 'wp_enqueue_scripts', 'my_styles_files' );
 
 /*
-* Function to add my scripts files
-*/
+ * Function to add my scripts files
+ */
 function my_scripts_files() {
 	wp_enqueue_script( 'jquery-js', get_template_directory_uri() . '/assets/js/jquery-1.11.1.min.js', false );
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', false );
@@ -43,8 +43,8 @@ function my_scripts_files() {
 add_action( 'wp_enqueue_scripts', 'my_scripts_files' );
 
 /*
-* Function to register my menus
-*/
+ * Function to register my menus
+ */
 function register_my_menus() {
 	register_nav_menus(
 		array(
@@ -56,11 +56,11 @@ function register_my_menus() {
 add_action( 'init', 'register_my_menus' );
 
 /*
-* Function to add my custom menu item
-*/
+ * Function to add my custom menu item
+ */
 function my_custom_menu_item( $items, $args ) {
 	if ( $args->theme_location == 'main-menu' ) {
-		$items .= '<li><a href="/comsubcol/login" class="fancybox-login" data-fancybox-type="iframe">Iniciar sesión</li>';
+		$items .= '<li><a href="/comsubcol/iniciar-sesion" class="fancybox-login" data-fancybox-type="iframe">Iniciar sesión</li>';
 		$items .= '<li><a href="#" class="fancybox-login"><i class="fa fa-star"></i></a></li>';
 		$items .= '<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>';
 		$items .= '<li><a href="#"><i class="fa fa-user"></i></a></li>';

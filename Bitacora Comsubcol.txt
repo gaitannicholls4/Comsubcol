@@ -10,12 +10,15 @@ README ( Listo NV )
 
 /wp-content/themes/Comsubcol/
 
+footer-login.php ( Listo NV )
 footer.php ( Listo NV )
 functions.php NV ->
+header-login.php ( Listo NV )
 header.php ( Listo NV )
 index.php ( Listo NV )
 page-categorias.php ( Listo NV )
 page-contactenos.php ( Listo NV )
+page-login.php ( Listo NV )
 page-quienes-somos.php ( Listo NV )
 page.php ( Listo NV )
 part-header.php ( Listo NV )
