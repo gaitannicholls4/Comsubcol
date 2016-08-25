@@ -372,7 +372,7 @@ echo "<div class='wdm-no-bids-avail wdm-mark-red wdm_auc_mid'>".__('No bids plac
 									echo "";
 								} else {
 								?>
-								<input type="button" value="<?php ( empty( $ob ) && !empty( $bnp ) ) ? _e('Comprar Ahora', 'wdm-ultimate-auction'): _e('Ofertar en Línea', 'wdm-ultimate-auction') ; ?>" class="csc_buttom_bid" />
+								<a href="<?php echo get_permalink( $wdm_single_auction->ID ); ?>" class="csc_buttom_bid"><?php ( empty( $ob ) && !empty( $bnp ) ) ? _e('Comprar Ahora', 'wdm-ultimate-auction'): _e('Ofertar en Línea', 'wdm-ultimate-auction') ; ?></a>
 								<?php } ?>
 								<div class="csc_clear"></div>
 <!-- </li> -->
