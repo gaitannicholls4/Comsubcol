@@ -22,7 +22,8 @@ page-login.php ( Listo NV )
 page-quienes-somos.php ( Listo NV )
 page.php ( Listo NV )
 part-header.php ( Listo NV )
-part-slider-1.php NV ->
+part-slider-1.php ( Listo NV )
+part-slider-2.php ( Listo NV )
 part-slider.php ( Listo NV )
 style.css NV ->
 
