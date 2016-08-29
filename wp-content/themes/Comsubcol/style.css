@@ -187,6 +187,18 @@ nav.main-navigation ul a:hover {
 	margin-bottom: 0;
 }
 
+.car-details .up-content {
+	background-color: transparent;
+}
+
+#left-info .details .head-side-bar {
+	background-color: #ED1C24;
+}
+
+#left-info .details .list-info ul li {
+	color: #ED1C24;
+}
+
 .contact-form #contact_form input.name {
 	background-image: url(assets/images/name-icon.png);
 	background-position: 10px;

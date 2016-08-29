@@ -77,7 +77,7 @@ index.html ( Listo NV )
 
 auction-feeder-page.php ( Modificado NV )
 index.html ( Listo NV )
-ultimate-auction-template.php
+ultimate-auction-template.php ( Modificado NV )
 
 ----------------------------------------------------------------------------------------------------
 

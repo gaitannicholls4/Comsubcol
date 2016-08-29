@@ -1,5 +1,10 @@
+<!-- Begin Custom -->
 <?php
 ob_start();
+
+echo '<section class="car-details">';
+echo '<div class="container">';
+echo '<div class="row">';
 
 echo '<style> #comments{ display: none;} </style>';
 
@@ -210,9 +215,13 @@ if (isset($_GET[ 'rnr' ]) && $_GET[ 'rnr' ] == 'shw') {
         echo $bef_auc;
         ?>
 
-        <!--main forms container of single auction page-->
-        <div class="wdm-ultimate-auction-container">
-            <div class="wdm-image-container">
+<div id="single-car" class="col-md-8">
+	<div class="up-content clearfix">
+		<h2><?php echo $wdm_auction->post_title; ?></h2>
+		<!--<span>$30.000</span>-->
+	</div>
+	<div class="flexslider">
+		<div class="wdm-image-container">
 
                <?php
                $images = '';
@@ -311,15 +320,45 @@ if (isset($_GET[ 'rnr' ]) && $_GET[ 'rnr' ] == 'shw') {
         ?>
 
     </div> <!--wdm-image-container ends here-->
+	</div>
+</div>
+<div id="left-info" class="col-md-4">
+	<div class="details">
+		<div class="head-side-bar">
+			<h4>Detalles</h4>
+		</div>
+		<div class="list-info">
+			<?php echo $wdm_auction->post_content; ?>
+			<ul>
+				<li><span>Marca:</span>Audi</li>
+				<li><span>Año de Fabricación:</span>2015.6.17</li>
+				<li><span>Tipo de Gasolina:</span>Corriente</li>
+				<li><span>Engranajes:</span>5</li>
+				<li><span>Transmisión:</span>Automática</li>
+				<li><span>Color:</span>Azul</li>
+				<li><span>Economía:</span>12l/City - 10l/hwy</li>
+				<li><span>Capacidad Motor:</span>( 179KW / 400BHP )</li>
+				<li><span>País de Origen:</span>Alemania</li>
+			</ul>
+		</div>
+		<div class="csc_time_bid">
+			PRUEBA
+		</div>
+	</div>
+</div>
+
+        <!--main forms container of single auction page-->
+        <div class="wdm-ultimate-auction-container">
+            
 
     <div class="wdm_single_prod_desc">
 
-       <div class="wdm-single-auction-title" style="float: left;">
+       <!--<div class="wdm-single-auction-title" style="float: left;">
           <?php echo $wdm_auction->post_title;
           ?>
-      </div> <!--wdm-single-auction-title ends here-->
+      </div>--> <!--wdm-single-auction-title ends here-->
 
-      <div class="wdm-single-auction-author" style="float: right;padding-top:5px;">
+      <!--<div class="wdm-single-auction-author" style="float: right;padding-top:5px;">
           <?php
           $author_ID = $wdm_auction->post_author;
           $author_auc = new WP_User($author_ID);
@@ -362,7 +401,7 @@ if (isset($_GET[ 'rnr' ]) && $_GET[ 'rnr' ] == 'shw') {
             echo wdm_ua_add_html_on_feed('review');
         }
         ?>
-    </div> <!--wdm-single-auction-author ends here-->
+    </div>--> <!--wdm-single-auction-author ends here-->
 
     <?php
     $ext_html = '';
@@ -1031,7 +1070,7 @@ if ((time() >= strtotime(get_post_meta($wdm_auction->ID, 'wdm_listing_ends', tru
 	<!--wdm_auction_desc_section ends here-->
 
 			<?php
-            require 'auction-description-tabs.php'; //file to display current auction description tabs section
+            // require 'auction-description-tabs.php'; //file to display current auction description tabs section
             ?>
             <!--script to show small images in main image container-->
             <script type="text/javascript">
@@ -1175,5 +1214,11 @@ else {
     }
 }
 $content = ob_get_contents();
+
+echo '</div>';
+echo '</div>';
+echo '</section>';
+
 ob_end_clean();
 ?>
+<!-- End Custom -->
