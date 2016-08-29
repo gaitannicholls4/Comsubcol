@@ -183,6 +183,10 @@ nav.main-navigation ul a:hover {
 	background-color: #FFF;
 }
 
+.heading-section-2 .line-dec {
+	margin-bottom: 0;
+}
+
 .contact-form #contact_form input.name {
 	background-image: url(assets/images/name-icon.png);
 	background-position: 10px;
@@ -329,6 +333,12 @@ ul#menu-categories-menu a {
 
 ul#menu-categories-menu li.current-menu-item a,
 ul#menu-categories-menu a:hover {
+	color: #ED1C24;
+}
+
+.csc_title_categories h2 {
+	font-family: "Myriad Pro Condensed";
+	font-size: 22px;
 	color: #ED1C24;
 }
 

@@ -29,6 +29,34 @@ Template Name: Categoria
 			</div>
 		</div>
 	</div>
+	<div class="csc_title_categories">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="heading-section-2 text-center">
+						<h2><?php the_title(); ?></h2>
+						<?php
+						$post_id = get_the_ID();
+						$post = get_post( $post_id );
+						$slug = $post->post_name;
+						switch ( $slug ) {
+							default: $icon = 'fa-shopping-cart'; break;
+							case 'inmuebles': $icon = 'fa-home'; break;
+							case 'automoviles': $icon = 'fa-car'; break;
+							case 'tecnologia': $icon = 'fa-desktop'; break;
+							case 'industria': $icon = 'fa-industry'; break;
+							case 'jardineria': $icon = 'fa-leaf'; break;
+							case 'medicina': $icon = 'fa-heart'; break;
+							case 'vip': $icon = 'fa-star'; break;
+						}
+						?>
+						<div class="dec"><i class="fa <?php echo $icon; ?>"></i></div>
+						<div class="line-dec"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<section class="listing-grid">
 		<div class="container">
 			<div class="row">
@@ -36,9 +64,6 @@ Template Name: Categoria
 					<div id="featured-cars">
 						<div class="row">
 							<?php
-							$post_id = get_the_ID();
-							$post = get_post( $post_id );
-							$slug = $post->post_name;
 							$args = array(
 								'posts_per_page' => 9,
 								'post_type' => 'ultimate-auction',
