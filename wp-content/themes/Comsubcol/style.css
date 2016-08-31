@@ -38,15 +38,21 @@ Version: 1.0
 }
 
 .site-header .main-header .logo {
+	margin-right: 10px;
+	padding-right: 10px;
 	border-right: none;
 }
 
-nav.main-navigation ul li:nth-child(5) {
+nav.main-navigation ul li {
+	padding: 45px 8px;
+}
+
+nav.main-navigation ul li:nth-child(7) {
 	background: url(assets/images/iniciar_sesion_li_bg.png) no-repeat;
 	background-position: left;
 }
 
-nav.main-navigation ul li:nth-child(5) a {
+nav.main-navigation ul li:nth-child(7) a {
 	font-family: "Source Sans Pro ExtraLight";
 	font-size: 13px;
 	text-transform: none;
@@ -108,15 +114,21 @@ nav.main-navigation ul a:hover {
 
 .fourth-line {
 	margin: 0 10px;
-	padding: 10px 30px;
-	background-color: #B2151B;
 }
 
 .fourth-line a {
+	padding: 10px 30px;
+	background-color: #B2151B;
 	font-family: "Myriad Pro Condensed";
 	font-size: 14px;
 	color: #FFF;
 	text-transform: uppercase;
+}
+
+.fourth-line a.registrarse {
+	padding: 8px 28px;
+	background-color: transparent;
+	border: 1px solid #FFF;
 }
 
 .slider-thumb .thumb-item img {
