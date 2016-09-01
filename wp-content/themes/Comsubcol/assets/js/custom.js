@@ -352,7 +352,9 @@ jQuery(document).ready(function ($) {
          	hideBulletsOnMobile:"on",
          	hideArrowsOnMobile:"on",
          	hideThumbsUnderResoluition:0,
-            fullWidth: "on",
+            fullWidth: "off",
+			fullScreen: "on",
+			fullScreenOffsetContainer: "",
             shadow: 0
       	});
 
