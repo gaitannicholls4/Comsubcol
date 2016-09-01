@@ -389,6 +389,74 @@ ul#menu-categories-menu a:hover {
 	text-transform: uppercase;
 }
 
+/* Left Menu */
+
+.left_menu {
+	top: 200px;
+	left: 0;
+	position: fixed;
+	z-index: 2000;
+}
+
+.left_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.left_menu ul li a {
+	width: 140px;
+	padding: 10px 15px;
+	background-color: #000;
+	font-size: 14px;
+	color: #FFF;
+	display: inline-block;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.left_menu ul li a:before {
+	margin-right: 10px;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+}
+
+.left_menu ul li a.l_inmuebles:before {
+	content: "\f015";
+}
+
+.left_menu ul li a.l_automoviles:before {
+	content: "\f1b9";
+}
+
+.left_menu ul li a.l_tecnologia:before {
+	content: "\f108";
+}
+
+.left_menu ul li a.l_industria:before {
+	content: "\f275";
+}
+
+.left_menu ul li a.l_jardineria:before {
+	content: "\f06c";
+}
+
+.left_menu ul li a.l_medicina:before {
+	content: "\f004";
+}
+
+.left_menu ul li a.l_vip:before {
+	content: "\f005";
+}
+
+.left_menu ul li a:hover {
+	padding: 10px 30px;
+	color: #ED1C24;
+}
+
 /* Pop Up */
 
 .csc_pop_up {

@@ -19,3 +19,4 @@
 				<div class="sidebar-menu-overlay"></div>
 				<div class="sidebar-menu-inner">
 					<?php get_template_part( 'part', 'header' ); ?>
+					<?php get_template_part( 'part', 'left-menu' ); ?>
