@@ -319,17 +319,32 @@ nav.main-navigation ul a:hover {
 
 /* Categorías */
 
-.csc_menu_categories .prev {
+.csc_menu_categories .container,
+.csc_menu_categories .col-xs-1,
+.csc_menu_categories .col-xs-10 {
+	padding: 0;
+}
+
+.csc_menu_categories .col-xs-1 {
+	width: 10%;
+}
+
+.csc_menu_categories .col-xs-10 {
+	width: 80%;
+}
+
+.csc_menu_categories a.prev {
 	background: url(assets/images/owl_prev.png) no-repeat;
+	background-position: right;
 }
 
-.csc_menu_categories .next {
+.csc_menu_categories a.next {
 	background: url(assets/images/owl_next.png) no-repeat;
+	background-position: left;
 }
 
-.csc_menu_categories .prev,
-.csc_menu_categories .next {
-	background-position: center;
+.csc_menu_categories a.prev,
+.csc_menu_categories a.next {
 	font-size: 0;
 	line-height: 45px;
 }
@@ -339,18 +354,20 @@ nav.main-navigation ul a:hover {
 }
 
 ul#menu-categories-menu {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
 ul#menu-categories-menu li {
-	float: left;
-	position: relative;
+	display: inline;
 }
 
 ul#menu-categories-menu a {
 	padding: 20px;
 	font-family: "Myriad Pro Condensed";
 	color: #6D6E71;
+	text-align: center;
 	text-transform: uppercase;
 	display: block;
 }
