@@ -32,7 +32,7 @@ Template Name: Contactenos
 			function initialize() {
 				var mapCanvas = document.getElementById('map');
 				var mapOptions = {
-					center: new google.maps.LatLng(4.7271278, -74.029541),
+					center: new google.maps.LatLng(4.6688381, -74.1512065),
 					zoom: 16,
 					scrollwheel: false,
 					mapTypeId: google.maps.MapTypeId.ROADMAP

@@ -1,11 +1,15 @@
 <div class="left_menu hidden-xs">
 	<ul>
 		<li><a href="/categorias/inmuebles" class="l_inmuebles">Inmuebles</a></li>
-		<li><a href="/categorias/automoviles" class="l_automoviles">Automóviles</a></li>
-		<li><a href="/categorias/tecnologia" class="l_tecnologia">Tecnología</a></li>
-		<li><a href="/categorias/industria" class="l_industria">Industria</a></li>
-		<li><a href="/categorias/jardineria" class="l_jardineria">Jardinería</a></li>
-		<li><a href="/categorias/medicina" class="l_medicina">Medicina</a></li>
+		<li><a href="/categorias/vehiculos" class="l_vehiculos">Vehículos</a></li>
+		<li><a href="/categorias/equipos-electronicos-y-de-comunicacion" class="l_equipos_electronicos_y_de_comunicacion">Equipos Electrónicos y de Comunicación</a></li>
+		<li><a href="/categorias/sector-petrolero" class="l_sector_petrolero">Sector Petrolero</a></li>
+		<li><a href="/categorias/inmobiliarios-oficina" class="l_inmobiliarios_oficina">Inmobiliarios Oficina</a></li>
+		<li><a href="/categorias/equipos-medicos" class="l_equipos_medicos">Equipos Médicos</a></li>
+		<li><a href="/categorias/maquinaria-y-equipos-especiales" class="l_maquinaria_y_equipos_especiales">Maquinaria y Equipos Especiales</a></li>
+		<li><a href="/categorias/chatarra" class="l_chatarra">Chatarra</a></li>
+		<li><a href="/categorias/obras_de_arte" class="l_obras_de_arte">Obras de Arte</a></li>
+		<li><a href="/categorias/joyas" class="l_joyas">Joyas</a></li>
 		<?php if ( is_user_logged_in() ) { ?><li><a href="/categorias/vip" class="l_vip">VIP</a></li><?php } ?>
 	</ul>
 </div>

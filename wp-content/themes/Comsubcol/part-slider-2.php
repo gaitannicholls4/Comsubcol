@@ -4,7 +4,7 @@ $args = array(
 	'post_type' => 'ultimate-auction',
 	'post_status' => 'publish',
 	'auction-status' => 'live',
-	'ua-auction-category' => 'automoviles',
+	'ua-auction-category' => 'vehiculos',
 	'suppress_filters' => false
 );
 $wdm_auction_array = get_posts( $args );
