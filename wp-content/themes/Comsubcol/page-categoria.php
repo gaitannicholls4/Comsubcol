@@ -74,7 +74,11 @@ Template Name: Categoria
 							);
 							$wdm_auction_array = get_posts( $args );
 							foreach ( $wdm_auction_array as $wdm_single_auction ) {
-							?>
+								global $wpdb;
+								$act_trm = wp_get_post_terms( $wdm_single_auction->ID, 'auction-status', array("fields" => "names") );
+								$query = "SELECT MAX(bid) FROM " . $wpdb->prefix . "wdm_bidders WHERE auction_id =" . $wdm_single_auction->ID;
+								$curr_price = $wpdb->get_var( $query );
+								?>
 							<div class="featured-item col-md-4">
 								<?php
 								$vid_arr = array('mpg', 'mpeg', 'avi', 'mov', 'wmv', 'wma', 'mp4', '3gp', 'ogm', 'mkv', 'flv');
