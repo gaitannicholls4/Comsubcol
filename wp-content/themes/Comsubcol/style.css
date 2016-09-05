@@ -53,19 +53,19 @@ nav.main-navigation ul li:nth-child(8) {
 }
 
 nav.main-navigation ul li:nth-child(8) a,
-nav.main-navigation ul li:nth-child(9) a {
+nav.main-navigation ul li:nth-child(9) a.registrarse {
 	font-family: "Source Sans Pro ExtraLight";
 	font-size: 13px;
 	text-transform: none;
 }
 
-nav.main-navigation ul li:nth-child(9) a {
+nav.main-navigation ul li:nth-child(9) a.registrarse {
 	padding: 5px;
 	border: 1px solid #ED1C24;
 	color: #ED1C24;
 }
 
-nav.main-navigation ul li:nth-child(9) a:hover {
+nav.main-navigation ul li:nth-child(9) a.registrarse:hover {
 	border: 1px solid #B2151B;
 	color: #B2151B;
 }

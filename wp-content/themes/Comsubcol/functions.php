@@ -67,7 +67,7 @@ function my_custom_menu_item( $items, $args ) {
 			$items .= '<li><a href="/cerrar-sesion"><i class="fa fa-sign-out"></i></li>'; // Administrador - Cerrar Sesión
 		} else {
 			$items .= '<li><a href="/iniciar-sesion" class="fancybox-login" data-fancybox-type="iframe">Iniciar sesión</li>'; // Iniciar Sesión - Cuenta
-			$items .= '<li><a href="/registrarse" class="fancybox-login" data-fancybox-type="iframe">Registrarse <i class="fa fa-arrow-circle-right"></i></a></li>'; // Registrarse
+			$items .= '<li><a href="/registrarse" class="fancybox-login registrarse" data-fancybox-type="iframe">Registrarse <i class="fa fa-arrow-circle-right"></i></a></li>'; // Registrarse
 			$items .= '<li><a href="/iniciar-sesion-vip" class="fancybox-login" data-fancybox-type="iframe"><i class="fa fa-star"></i></a></li>'; // Iniciar Sesión VIP - VIP
 			$items .= '<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>'; // # - Dashboard
 			$items .= '<li><a href="/wp-admin" target="_blank"><i class="fa fa-user"></i></a></li>'; // Administrador - Cerrar Sesión
