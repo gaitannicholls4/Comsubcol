@@ -71,7 +71,16 @@ function my_custom_menu_item( $items, $args ) {
 			$items .= '<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>'; // # - Dashboard
 			$items .= '<li><a href="/wp-admin" target="_blank"><i class="fa fa-user"></i></a></li>'; // Administrador - Cerrar Sesión
 		}
-		$items .= '<li><a href=""></a></li>';
+		$items .= '
+			<li>
+				<p><a href="#" id="example-show" class="showLink"><i class="fa fa-search"></i></a></p>
+				<div id="example" class="more">
+					<form method="get" id="blog-search" class="blog-search">
+						<input type="text" name="s" value="" class="blog-search-field" placeholder="Buscar...">
+					</form>
+					<p><a href="#" id="example-hide" class="hideLink"><i class="fa fa-close"></i></a></p>
+				</div>
+			</li>';
 	}
 	return $items;
 }

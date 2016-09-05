@@ -391,6 +391,22 @@ jQuery(document).ready(function ($) {
 
 	/* ---------- Custom ---------- */
 
+	/* Search */
+
+	var example = $( '#example' ).css( 'display' );
+	if ( example == 'none' ) {
+		$( 'a#example-show' ).click(function( event ) {
+			event.preventDefault();
+			$( '#example-show' ).css( 'display', 'none' );
+			$( '#example' ).css( 'display', 'inline' );
+		});
+	}
+	$( 'a#example-hide' ).click(function( event ) {
+		event.preventDefault();
+		$( '#example-show' ).css( 'display', 'inline' );
+		$( '#example' ).css( 'display', 'none' );
+	});
+
 	/* Left Menu */
 
 	$( 'a.left_main' ).click(function( event ) {
