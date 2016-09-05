@@ -18,17 +18,7 @@ Template Name: Categoria
 			</div>
 		</div>
 	</div>
-	<div class="csc_menu_categories">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-1 text-center"><a class="btn prev">P</a></div>
-				<div class="col-xs-10">
-					<?php wp_nav_menu( array( 'theme_location' => 'categories-menu' ) ); ?>
-				</div>
-				<div class="col-xs-1 text-center"><a class="btn next">N</a></div>
-			</div>
-		</div>
-	</div>
+	<?php get_template_part( 'part', 'categorias-menu' ); ?>
 	<div class="csc_title_categories">
 		<div class="container">
 			<div class="row">

@@ -359,7 +359,7 @@ ul#menu-categories-menu li {
 }
 
 ul#menu-categories-menu a {
-	padding: 20px;
+	padding: 20px 10px;
 	font-family: "Myriad Pro Condensed";
 	color: #6D6E71;
 	text-align: center;
