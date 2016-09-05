@@ -44,7 +44,7 @@ Version: 1.0
 }
 
 nav.main-navigation ul li {
-	padding: 45px 8px;
+	padding: 45px 5px;
 }
 
 nav.main-navigation ul li:nth-child(8) {
@@ -52,10 +52,22 @@ nav.main-navigation ul li:nth-child(8) {
 	background-position: left;
 }
 
-nav.main-navigation ul li:nth-child(8) a {
+nav.main-navigation ul li:nth-child(8) a,
+nav.main-navigation ul li:nth-child(9) a {
 	font-family: "Source Sans Pro ExtraLight";
 	font-size: 13px;
 	text-transform: none;
+}
+
+nav.main-navigation ul li:nth-child(9) a {
+	padding: 5px;
+	border: 1px solid #ED1C24;
+	color: #ED1C24;
+}
+
+nav.main-navigation ul li:nth-child(9) a:hover {
+	border: 1px solid #B2151B;
+	color: #B2151B;
 }
 
 nav.main-navigation ul li:last-child i {
@@ -64,7 +76,7 @@ nav.main-navigation ul li:last-child i {
 
 nav.main-navigation ul a {
 	font-family: "Myriad Pro Condensed";
-	font-size: 16px;
+	font-size: 15px;
 	color: #FFF;
 }
 
