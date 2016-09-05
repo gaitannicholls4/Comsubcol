@@ -1,4 +1,5 @@
 <div class="left_menu hidden-xs">
+	<a href="#" class="left_main">Categorías</a>
 	<ul>
 		<li><a href="/categorias/inmuebles" class="l_inmuebles">Inmuebles</a></li>
 		<li><a href="/categorias/vehiculos" class="l_vehiculos">Vehículos</a></li>

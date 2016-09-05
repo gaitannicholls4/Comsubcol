@@ -415,16 +415,43 @@ ul#menu-categories-menu a:hover {
 	z-index: 2000;
 }
 
+.left_menu a.left_main {
+	width: 160px;
+	padding: 10px 15px;
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: 14px;
+	color: #FFF;
+	display: block;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.left_menu a.left_main:before {
+	content: "\f0c9";
+	margin-right: 10px;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+}
+
+.left_menu a.left_main:hover {
+	padding: 10px 30px;
+	color: #ED1C24;
+}
+
 .left_menu ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	display: none;
 }
 
 .left_menu ul li a {
-	width: 140px;
+	width: 160px;
 	padding: 10px 15px;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.8);
 	font-size: 14px;
 	color: #FFF;
 	display: inline-block;
@@ -445,24 +472,40 @@ ul#menu-categories-menu a:hover {
 	content: "\f015";
 }
 
-.left_menu ul li a.l_automoviles:before {
+.left_menu ul li a.l_vehiculos:before {
 	content: "\f1b9";
 }
 
-.left_menu ul li a.l_tecnologia:before {
+.left_menu ul li a.l_equipos_electronicos_y_de_comunicacion:before {
 	content: "\f108";
 }
 
-.left_menu ul li a.l_industria:before {
+.left_menu ul li a.l_sector_petrolero:before {
 	content: "\f275";
 }
 
-.left_menu ul li a.l_jardineria:before {
-	content: "\f06c";
+.left_menu ul li a.l_inmobiliarios_oficina:before {
+	content: "\f0b1";
 }
 
-.left_menu ul li a.l_medicina:before {
-	content: "\f004";
+.left_menu ul li a.l_equipos_medicos:before {
+	content: "\f0fa";
+}
+
+.left_menu ul li a.l_maquinaria_y_equipos_especiales:before {
+	content: "\f0d1";
+}
+
+.left_menu ul li a.l_chatarra:before {
+	content: "\f013";
+}
+
+.left_menu ul li a.l_obras_de_arte:before {
+	content: "\f03e";
+}
+
+.left_menu ul li a.l_joyas:before {
+	content: "\f110";
 }
 
 .left_menu ul li a.l_vip:before {

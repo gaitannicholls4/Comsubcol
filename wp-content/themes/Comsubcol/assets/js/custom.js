@@ -389,28 +389,35 @@ jQuery(document).ready(function ($) {
 		
 		
 
-/* ---------- Custom ---------- */
+	/* ---------- Custom ---------- */
 
-/* Categorías */
+	/* Left Menu */
 
-var categorias = $( '#menu-categories-menu' );
-categorias.owlCarousel({
-	itemsCustom: [
-		[0, 1],
-		[400, 4]
-	]
-});
-$( '.prev' ).click(function() {
-	categorias.trigger( 'owl.prev' );
-});
-$( '.next' ).click(function() {
-	categorias.trigger( 'owl.next' );
-});
+	$( 'a.left_main' ).click(function( event ) {
+		event.preventDefault();
+		$( '.left_menu ul' ).toggle( 'slow' );
+	});
 
-/* Pop Up */
+	/* Categorías */
 
-$( '.fancybox-login' ).fancybox({
-	maxHeight: 500
-});
+	var categorias = $( '#menu-categories-menu' );
+	categorias.owlCarousel({
+		itemsCustom: [
+			[0, 1],
+			[400, 4]
+		]
+	});
+	$( '.prev' ).click(function() {
+		categorias.trigger( 'owl.prev' );
+	});
+	$( '.next' ).click(function() {
+		categorias.trigger( 'owl.next' );
+	});
+
+	/* Pop Up */
+
+	$( '.fancybox-login' ).fancybox({
+		maxHeight: 500
+	});
 
 });

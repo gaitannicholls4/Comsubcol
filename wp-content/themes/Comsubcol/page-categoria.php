@@ -42,11 +42,15 @@ Template Name: Categoria
 						switch ( $slug ) {
 							default: $icon = 'fa-shopping-cart'; break;
 							case 'inmuebles': $icon = 'fa-home'; break;
-							case 'automoviles': $icon = 'fa-car'; break;
-							case 'tecnologia': $icon = 'fa-desktop'; break;
-							case 'industria': $icon = 'fa-industry'; break;
-							case 'jardineria': $icon = 'fa-leaf'; break;
-							case 'medicina': $icon = 'fa-heart'; break;
+							case 'vehiculos': $icon = 'fa-car'; break;
+							case 'equipos-electronicos-y-de-comunicacion': $icon = 'fa-desktop'; break;
+							case 'sector-petrolero': $icon = 'fa-industry'; break;
+							case 'inmobiliarios-oficina': $icon = 'fa-briefcase'; break;
+							case 'equipos-medicos': $icon = 'fa-medkit'; break;
+							case 'maquinaria-y-equipos-especiales': $icon = 'fa-truck'; break;
+							case 'chatarra': $icon = 'fa-cog'; break;
+							case 'obras-de-arte': $icon = 'fa-picture-o'; break;
+							case 'joyas': $icon = 'fa-spinner'; break;
 							case 'vip': $icon = 'fa-star'; break;
 						}
 						?>
