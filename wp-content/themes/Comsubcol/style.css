@@ -532,6 +532,62 @@ ul#menu-categories-menu a:hover {
 	color: #ED1C24;
 }
 
+/* Counter */
+
+.csc_counter {
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	font-family: "Source Sans Pro Light";
+	position: fixed;
+	z-index: 100;
+}
+
+.csc_counter .container {
+	padding: 0;
+}
+
+.csc_counter .row {
+	margin: 0;
+}
+
+.csc_counter .col-md-12 {
+	padding: 0;
+}
+
+.csc_counter h2.csc_title {
+	margin: 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.csc_counter .csc_box {
+	width: 320px;
+	margin: auto;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #FFF;
+}
+
+.csc_counter .csc_box ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.csc_counter .csc_box li {
+	width: 50%;
+	color: #ED1C24;
+	text-align: center;
+	display: inline-block;
+}
+
+.csc_counter .csc_box label {
+	padding-right: 5px;
+	color: #FFF;
+}
+
 /* Pop Up */
 
 .csc_pop_up {

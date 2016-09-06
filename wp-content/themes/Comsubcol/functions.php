@@ -86,3 +86,20 @@ function my_custom_menu_item( $items, $args ) {
 	return $items;
 }
 add_filter( 'wp_nav_menu_items', 'my_custom_menu_item', 10, 2 );
+
+/*
+ * Function to register my sidebars and widgetized areas
+ */
+function arphabet_widgets_init() {
+	register_sidebar(
+		array(
+			'name' => 'Counter',
+			'id' => 'counter_1',
+			'before_widget' => '<div class="csc_box">',
+			'after_widget' => '</div>',
+			'before_title' => '<h2 class="csc_title">',
+			'after_title' => ' <i class="fa fa-users"></i></h2>'
+		)
+	);
+}
+add_action( 'widgets_init', 'arphabet_widgets_init' );

@@ -1,3 +1,4 @@
+					<?php get_template_part( 'part', 'counter' ); ?>
 					<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
 				</div>
 			</div>
