@@ -72,14 +72,19 @@ function my_custom_menu_item( $items, $args ) {
 			$items .= '<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>'; // # - Dashboard
 			$items .= '<li><a href="/wp-admin" target="_blank"><i class="fa fa-user"></i></a></li>'; // Administrador - Cerrar Sesión
 		}
+		if ( isset( $_POST[ 'item_subasta' ] ) ) {
+			$item_subasta = $_POST[ 'item_subasta' ];
+		} else {
+			$item_subasta = 'Buscar...';
+		}
 		$items .= '
 			<li>
 				<p><a href="#" id="example-show" class="showLink"><i class="fa fa-search"></i></a></p>
 				<div id="example" class="more">
-					<form method="get" id="blog-search" class="blog-search">
-						<input type="text" name="s" value="" class="blog-search-field" placeholder="Buscar...">
+					<form action="' . esc_url( get_permalink( 2640 ) ) . '" method="post" id="blog-search" class="blog-search">
+						<input type="text" id="item_subasta" name="item_subasta" value="" class="blog-search-field" placeholder="' . $item_subasta . '">
 					</form>
-					<p><a href="#" id="example-hide" class="hideLink"><i class="fa fa-close"></i></a></p>
+					<p class="hidden-xs hidden-sm"><a href="#" id="example-hide" class="hideLink"><i class="fa fa-close"></i></a></p>
 				</div>
 			</li>';
 	}

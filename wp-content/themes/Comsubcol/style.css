@@ -89,6 +89,10 @@ nav.main-navigation ul a i {
 	margin: 0 2px;
 }
 
+a.hideLink {
+	color: #ED1C24 !important;
+}
+
 .slider {
 	margin-top: 0;
 }
@@ -196,6 +200,10 @@ nav.main-navigation ul a i {
 
 #page-heading.categorias {
 	background-image: url(assets/images/categorias.jpg);
+}
+
+#page-heading.buscar {
+	background-image: url(assets/images/buscar.jpg);
 }
 
 #page-heading.contactenos {
