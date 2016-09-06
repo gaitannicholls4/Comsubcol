@@ -38,8 +38,8 @@ Version: 1.0
 }
 
 .site-header .main-header .logo {
-	margin-right: 10px;
-	padding-right: 10px;
+	margin-right: 5px;
+	padding-right: 5px;
 	border-right: none;
 }
 
@@ -76,13 +76,17 @@ nav.main-navigation ul li:last-child i {
 
 nav.main-navigation ul a {
 	font-family: "Myriad Pro Condensed";
-	font-size: 15px;
+	font-size: 14px;
 	color: #FFF;
 }
 
 nav.main-navigation ul li.current-menu-item a,
 nav.main-navigation ul a:hover {
 	color: #ED1C24;
+}
+
+nav.main-navigation ul a i {
+	margin: 0 2px;
 }
 
 .slider {
@@ -196,6 +200,10 @@ nav.main-navigation ul a:hover {
 
 #page-heading.contactenos {
 	background-image: url(assets/images/contactenos.jpg);
+}
+
+section {
+	padding: 30px 0;
 }
 
 .meet-team {
@@ -416,7 +424,7 @@ ul#menu-categories-menu a:hover {
 /* Left Menu */
 
 .left_menu {
-	top: 200px;
+	top: 120px;
 	left: 0;
 	position: fixed;
 	z-index: 2000;
