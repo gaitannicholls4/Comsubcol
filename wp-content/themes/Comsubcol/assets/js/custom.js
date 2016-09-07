@@ -447,6 +447,7 @@ jQuery(document).ready(function ($) {
 	text_replace( '.wdm-login-to-place-bid', 'Place Bid', 'Ofertar' );
 	text_replace( '.wdm-login-to-buy-now', 'Buy it now for', 'Comprar ahora por' );
 	text_replace( '#wdm_add_to_watch_lout', 'Add to Watchlist', 'Añadir a Lista de Seguimiento' );
+	text_replace( '#wdm-desc-bids-link', 'Total bids placed', 'Todas las Ofertas' );
 
 	/* Pop Up */
 

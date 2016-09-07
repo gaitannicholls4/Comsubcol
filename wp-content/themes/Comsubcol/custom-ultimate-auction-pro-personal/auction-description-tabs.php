@@ -1,7 +1,7 @@
 <div id="wdm-tab-anchor-id"></div>
 <div id="auction-desc-tabs">
   <ul id="auction-tab-titles">
-    <li id="wdm-desc-aucdesc-link"><?php _e('Description','wdm-ultimate-auction');?></li>
+    <!--<li id="wdm-desc-aucdesc-link"><?php _e('Description','wdm-ultimate-auction');?></li>-->
     <?php do_action('wdm_ua_add_ship_tab', $wdm_auction->ID); ?>
     <?php if(get_option('wdm_comment_set')=="Yes"){?>
     <li id="wdm-desc-cmt-link"><?php _e('Comments', 'wdm-ultimate-auction');?></li>
@@ -29,7 +29,7 @@
 
   </ul>
   
-  <div id="wdm-desc-aucdesc-tab" class="auction-tab-container">
+  <!--<div id="wdm-desc-aucdesc-tab" class="auction-tab-container">
     <div class="wdm-single-auction-description">
       <?php
 	  $ext_desc = "";
@@ -56,7 +56,7 @@
 	  }
       ?>
     </div>
-  </div>
+  </div>-->
   <?php if(get_post_meta($wdm_auction->ID, 'wdm_enable_shipping', true) == "1"){ ?>
   <div id="wdm-desc-ship-tab" class="auction-tab-container" style="display: none;overflow: hidden;">
       <div class="wdm-ship-info wdm-clear">
