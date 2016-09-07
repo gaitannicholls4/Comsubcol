@@ -74,6 +74,15 @@ nav.main-navigation ul li:last-child i {
 	background-color: transparent;
 }
 
+nav.main-navigation ul li:last-child #example {
+	left: -240px;
+	position: absolute;
+}
+
+nav.main-navigation ul li:last-child #example i {
+	margin-top: 15px;
+}
+
 nav.main-navigation ul a {
 	font-family: "Myriad Pro Condensed";
 	font-size: 14px;
@@ -516,11 +525,11 @@ ul#menu-categories-menu a:hover {
 	top: 120px;
 	left: 0;
 	position: fixed;
-	z-index: 2000;
+	z-index: 10000;
 }
 
 .left_menu a.left_main {
-	width: 160px;
+	width: 170px;
 	padding: 10px 15px;
 	background-color: rgba(0, 0, 0, 0.8);
 	font-size: 14px;
@@ -550,10 +559,15 @@ ul#menu-categories-menu a:hover {
 	padding: 0;
 	list-style: none;
 	display: none;
+	position: relative;
+}
+
+.left_menu ul li {
+	position: relative;
 }
 
 .left_menu ul li a {
-	width: 160px;
+	width: 170px;
 	padding: 10px 15px;
 	background-color: rgba(0, 0, 0, 0.8);
 	font-size: 14px;
@@ -617,8 +631,19 @@ ul#menu-categories-menu a:hover {
 }
 
 .left_menu ul li a:hover {
-	padding: 10px 30px;
+	padding: 10px 20px;
 	color: #ED1C24;
+}
+
+.left_menu ul li ul {
+	top: 0;
+	margin: 0;
+	left: 170px;
+	position: absolute;
+}
+
+.left_menu_level_2 {
+	display: none;
 }
 
 /* Counter */

@@ -409,9 +409,14 @@ jQuery(document).ready(function ($) {
 
 	/* Left Menu */
 
-	$( 'a.left_main' ).click(function( event ) {
+	$( '.left_main' ).click(function( event ) {
 		event.preventDefault();
-		$( '.left_menu ul' ).toggle( 'slow' );
+		$( '.left_menu_level_1' ).toggle( 'slow' );
+	});
+	$( '.left_dropdown' ).hover(function() {
+		$( this ).children( '.left_menu_level_2' ).slideDown( 200 );
+	}, function() {
+		$( this ).children( '.left_menu_level_2' ).slideUp( 200 );
 	});
 
 	/* Categorías */
@@ -453,6 +458,15 @@ jQuery(document).ready(function ($) {
 
 	$( '.fancybox-login' ).fancybox({
 		maxHeight: 500
+	});
+
+	$( 'li#menu-item-2274 a' ).addClass( 'como-participar' );
+	$( 'li#menu-item-2274 a' ).attr( 'href', 'http://www.comsubcol.com/wp-content/uploads/2016/09/como_participar.jpg' );
+	$( '.como-participar' ).fancybox({
+		width: 550,
+		height: 500,
+		fitToView: false,
+		scrolling: 'yes'
 	});
 
 });

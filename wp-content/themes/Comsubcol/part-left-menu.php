@@ -1,8 +1,17 @@
 <div class="left_menu hidden-xs">
 	<a href="#" class="left_main">Categorías</a>
-	<ul>
+	<ul class="left_menu_level_1">
 		<li><a href="/categorias/inmuebles" class="l_inmuebles">Inmuebles</a></li>
-		<li><a href="/categorias/vehiculos" class="l_vehiculos">Vehículos</a></li>
+		<li class="left_dropdown">
+			<a href="/categorias/vehiculos" class="l_vehiculos">Vehículos</a>
+			<ul class="left_menu_level_2">
+				<a href="/categorias/vehiculos/camiones" class="l_vehiculos">Camiones</a>
+				<a href="/categorias/vehiculos/camionetas-y-camperos" class="l_vehiculos">Camionetas y Camperos</a>
+				<a href="/categorias/vehiculos/automoviles" class="l_vehiculos">Automóviles</a>
+				<a href="/categorias/vehiculos/buses" class="l_vehiculos">Buses</a>
+				<a href="/categorias/vehiculos/motos" class="l_vehiculos">Motos</a>
+			</ul>
+		</li>
 		<li><a href="/categorias/equipos-electronicos-y-de-comunicacion" class="l_equipos_electronicos_y_de_comunicacion">Equipos Electrónicos y de Comunicación</a></li>
 		<li><a href="/categorias/sector-petrolero" class="l_sector_petrolero">Sector Petrolero</a></li>
 		<li><a href="/categorias/inmobiliarios-oficina" class="l_inmobiliarios_oficina">Inmobiliarios Oficina</a></li>
