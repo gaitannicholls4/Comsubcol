@@ -79,6 +79,7 @@ index.html ( Listo NV )
 
 /wp-content/themes/Comsubcol/custom-ultimate-auction-pro-personal/
 
+auction-description-tabs.php
 auction-feeder-page.php ( Modificado NV )
 index.html ( Listo NV )
 ultimate-auction-template.php ( Modificado NV )
