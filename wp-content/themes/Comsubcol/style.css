@@ -44,7 +44,7 @@ Version: 1.0
 }
 
 nav.main-navigation ul li {
-	padding: 45px 5px;
+	padding: 45px 4px;
 }
 
 nav.main-navigation ul li:nth-child(8) {
@@ -60,7 +60,7 @@ nav.main-navigation ul li:nth-child(9) a.registrarse {
 }
 
 nav.main-navigation ul li:nth-child(9) a.registrarse {
-	padding: 5px;
+	padding: 4px;
 	border: 1px solid #ED1C24;
 	color: #ED1C24;
 }
@@ -225,6 +225,12 @@ section {
 
 .meet-team {
 	background-color: #FFF;
+}
+
+.heading-section-2 span {
+	max-width: 700px;
+	margin: auto;
+	display: inline-block;
 }
 
 .heading-section-2 .line-dec {
