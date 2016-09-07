@@ -222,8 +222,81 @@ section {
 	margin-bottom: 0;
 }
 
+#wdm_ua_breadcrumb {
+	display: none;
+}
+
+section.car-details {
+	padding: 0;
+}
+
 .car-details .up-content {
 	background-color: transparent;
+}
+
+.car-details .flexslider {
+	margin: 10px 0;
+}
+
+.wdm-image-container {
+	margin: auto;
+	float: none;
+}
+
+.wdm-ultimate-auction-container {
+	font-family: 'Roboto', sans-serif;
+}
+
+.wdm_single_prod_desc {
+	width: auto;
+	float: none;
+}
+
+.wdm-auction-ending-time {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #39B54A;
+	color: #FFF;
+	text-align: center;
+}
+
+.wdm-single-auction-ending {
+	color: #FFF;
+}
+
+#wdm_place_bid_section {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#wdm-total-bids-link {
+	color: #ED1C24;
+}
+
+.wdm_reserved_note {
+	margin: 0;
+	margin-top: 10px;
+	float: none !important;
+}
+
+.wdm_place_bid input,
+.wdm_place_bid input[type="submit"],
+.wdm-login-to-place-bid {
+	background-color: #39B54A !important;
+}
+
+#wdm-buy-line-above {
+	margin: 0;
+	margin-bottom: 10px;
+	border: none;
+	text-align: center;
+}
+
+#wdm_add_to_watch_lin,
+#wdm_add_to_watch_lout {
+	color: #ED1C24;
 }
 
 #left-info .details .head-side-bar {
@@ -321,6 +394,14 @@ section {
 
 .fancybox-inner {
 	overflow: hidden !important;
+}
+
+#boxer-overlay {
+	z-index: 100010;
+}
+
+#boxer {
+	z-index: 100020;
 }
 
 /* ---------- Custom ---------- */

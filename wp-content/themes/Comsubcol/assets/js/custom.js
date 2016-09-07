@@ -430,6 +430,24 @@ jQuery(document).ready(function ($) {
 		categorias.trigger( 'owl.next' );
 	});
 
+	/* Item */
+
+	function text_replace( part, text_1, text_2 ) {
+		$( part ).each(function() {
+			var text = $( this ).text();
+			$( this ).text( text.replace( text_1, text_2 ) );
+		});
+	}
+	text_replace( '.wdm-mark-normal', 'days', 'días' );
+	text_replace( '.wdm_bidding_price strong', 'No Bid', 'Sin Ofertas' );
+	text_replace( '#wdm-total-bids-link', 'Bids', 'Ofertas' );
+	text_replace( '.wdm_reserved_note', 'Reserve price has been met.', 'El precio de reserva se ha cumplido.' );
+	text_replace( '.wdm_bid_val label', 'Bid Value', 'Valor de la Oferta' );
+	text_replace( '.wdm_inc_price', 'Enter equal or more than', 'Ingrese un valor mayor o igual a' );
+	text_replace( '.wdm-login-to-place-bid', 'Place Bid', 'Ofertar' );
+	text_replace( '.wdm-login-to-buy-now', 'Buy it now for', 'Comprar ahora por' );
+	text_replace( '#wdm_add_to_watch_lout', 'Add to Watchlist', 'Añadir a Lista de Seguimiento' );
+
 	/* Pop Up */
 
 	$( '.fancybox-login' ).fancybox({

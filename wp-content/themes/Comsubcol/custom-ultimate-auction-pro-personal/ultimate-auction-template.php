@@ -268,10 +268,10 @@
 								<!--main forms container of single auction page-->
 								<div class="wdm-ultimate-auction-container">
 									<div class="wdm_single_prod_desc">
-										<div class="wdm-single-auction-title" style="float: left;">
+										<!--<div class="wdm-single-auction-title" style="float: left;">
 											<?php echo $wdm_auction->post_title; ?>
-										</div> <!--wdm-single-auction-title ends here-->
-										<div class="wdm-single-auction-author" style="float: right; padding-top: 5px;">
+										</div>--> <!--wdm-single-auction-title ends here-->
+										<!--<div class="wdm-single-auction-author" style="float: right; padding-top: 5px;">
 											<?php
 											$author_ID = $wdm_auction->post_author;
 											$author_auc = new WP_User( $author_ID );
@@ -305,7 +305,7 @@
 												echo wdm_ua_add_html_on_feed( 'review' );
 											}
 											?>
-										</div> <!--wdm-single-auction-author ends here-->
+										</div>--> <!--wdm-single-auction-author ends here-->
 										<?php
 										$ext_html = '';
 										$ext_html = apply_filters( 'wdm_ua_text_before_bid_section', $ext_html, $wdm_auction->ID );
@@ -483,7 +483,7 @@
 											?>
 											<!--form to place bids-->
 											<div class="wdm-auction-ending-time">
-												<?php printf( __('Ending in: %s', 'wdm-ultimate-auction'), '<span class="wdm-single-auction-ending">' . $rem_tm . '</span>'); ?>
+												<?php printf( __('Finaliza en: %s', 'wdm-ultimate-auction'), '<span class="wdm-single-auction-ending">' . $rem_tm . '</span>'); ?>
 											</div>
 											<?php if ( !empty( $to_bid ) ) { ?>
 											<div id="wdm_place_bid_section">
@@ -622,6 +622,7 @@
 													<?php
 												}
 												?>
+												<div class="csc_clear"></div>
 											</div> <!--wdm_place_bid_section ends here-->
 											<?php } ?>
 											<br />
@@ -914,11 +915,11 @@
 													}
 													else if ( vDays == 1 || vDays == -1 ) {
 														eDays.show();
-														jQuery( '#wdm_days_text' ).html( ' <?php _e('day', 'wdm-ultimate-auction'); ?> ' );
+														jQuery( '#wdm_days_text' ).html( ' <?php _e('día', 'wdm-ultimate-auction'); ?> ' );
 													}
 													else {
 														eDays.show();
-														jQuery( '#wdm_days_text' ).html( ' <?php _e('days', 'wdm-ultimate-auction'); ?> ' );
+														jQuery( '#wdm_days_text' ).html( ' <?php _e('días', 'wdm-ultimate-auction'); ?> ' );
 													}
 													if ( vHours == 0 ) {
 														eHours.hide();
@@ -926,11 +927,11 @@
 													}
 													else if ( vHours == 1 || vHours == -1 ) {
 														eHours.show();
-														jQuery( '#wdm_hrs_text' ).html( ' <?php _e('hour', 'wdm-ultimate-auction'); ?> ' );
+														jQuery( '#wdm_hrs_text' ).html( ' <?php _e('hora', 'wdm-ultimate-auction'); ?> ' );
 													}
 													else {
 														eHours.show();
-														jQuery( '#wdm_hrs_text' ).html( ' <?php _e('hours', 'wdm-ultimate-auction'); ?> ' );
+														jQuery( '#wdm_hrs_text' ).html( ' <?php _e('horas', 'wdm-ultimate-auction'); ?> ' );
 													}
 													if ( vMinutes == 0 ) {
 														eMinutes.hide();
@@ -938,11 +939,11 @@
 													}
 													else if ( vMinutes == 1 || vMinutes == -1 ) {
 														eMinutes.show();
-														jQuery( '#wdm_mins_text' ).html( ' <?php _e('minute', 'wdm-ultimate-auction'); ?> ' );
+														jQuery( '#wdm_mins_text' ).html( ' <?php _e('minuto', 'wdm-ultimate-auction'); ?> ' );
 													}
 													else {
 														eMinutes.show();
-														jQuery( '#wdm_mins_text' ).html( ' <?php _e('minutes', 'wdm-ultimate-auction'); ?> ' );
+														jQuery( '#wdm_mins_text' ).html( ' <?php _e('minutos', 'wdm-ultimate-auction'); ?> ' );
 													}
 													if ( vSeconds == 0 ) {
 														eSeconds.hide();
@@ -950,11 +951,11 @@
 													}
 													else if ( vSeconds == 1 || vSeconds == -1 ) {
 														eSeconds.show();
-														jQuery( '#wdm_secs_text' ).html( ' <?php _e('second', 'wdm-ultimate-auction'); ?>' );
+														jQuery( '#wdm_secs_text' ).html( ' <?php _e('segundo', 'wdm-ultimate-auction'); ?>' );
 													}
 													else {
 														eSeconds.show();
-														jQuery( '#wdm_secs_text' ).html( ' <?php _e('seconds', 'wdm-ultimate-auction'); ?>' );
+														jQuery( '#wdm_secs_text' ).html( ' <?php _e('segundos', 'wdm-ultimate-auction'); ?>' );
 													}
 												}, 1000 );
 											} );
@@ -981,9 +982,9 @@
 											<li><span>País de Origen:</span>Alemania</li>
 										</ul>
 									</div>
-									<div class="csc_time_bid">
+									<!--<div class="csc_time_bid">
 										PRUEBA
-									</div>
+									</div>-->
 								</div>
 							</div>
 						</div>
