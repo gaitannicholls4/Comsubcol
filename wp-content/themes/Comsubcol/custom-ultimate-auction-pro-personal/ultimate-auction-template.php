@@ -617,7 +617,7 @@
 														</span>
 													</div>
 													<div class="wdm_place_bid" style="float: right; padding-top: 6px;">
-														<a class="wdm-login-to-place-bid login_popup_boxer" href="#ua_login_popup" title="<?php _e('Login', 'wdm-ultimate-auction'); ?>"><?php _e('Place Bid', 'wdm-ultimate-auction'); ?></a>
+														<a class="wdm-login-to-place-bid fancybox-login" href="/iniciar-sesion" data-fancybox-type="iframe"><?php _e('Place Bid', 'wdm-ultimate-auction'); ?></a>
 													</div>
 													<?php
 												}
@@ -767,7 +767,7 @@
 														?>
 														<div id="wdm_buy_now_section">
 															<div id="wdm-buy-line-above">
-																<a class="wdm-login-to-buy-now login_popup_boxer" href="#ua_login_popup" title="<?php _e('Login', 'wdm-ultimate-auction'); ?>">
+																<a class="wdm-login-to-buy-now fancybox-login" href="/iniciar-sesion" data-fancybox-type="iframe">
 																	<?php printf( __('Buy it now for %s%s %s', 'wdm-ultimate-auction'), $currency_symbol, number_format( $buy_now_price, 2, '.', ',' ), $currency_code_display ); ?>
 																</a>
 															</div>
@@ -820,7 +820,7 @@
 													do_action( 'wdm_ua_ship_short_link', $wdm_auction->ID );
 													?>
 													<div class="wdm_add_to_watch_div_lout">
-														<a href="#ua_login_popup_w" class="login_popup_boxer" id="wdm_add_to_watch_lout"  name="wdm_add_to_watch_lout" ><?php _e('Add to Watchlist', 'wdm-ultimate-auction'); ?></a>
+														<a href="/iniciar-sesion" class="fancybox-login" data-fancybox-type="iframe" id="wdm_add_to_watch_lout"  name="wdm_add_to_watch_lout" ><?php _e('Add to Watchlist', 'wdm-ultimate-auction'); ?></a>
 														<?php echo wdm_ua_add_html_on_feed( 'watchlist' ); ?>
 													</div>
 												</div>
