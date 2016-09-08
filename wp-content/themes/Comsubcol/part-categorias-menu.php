@@ -15,6 +15,7 @@ function my_cat_results( $category, $menu ) {
 	$my_query->query(array(
 		'post_type' => 'ultimate-auction',
 		'post_status' => 'publish',
+		'auction-status' => 'live',
 		'ua-auction-category' => $category
 	));
 	$count = $my_query->found_posts;

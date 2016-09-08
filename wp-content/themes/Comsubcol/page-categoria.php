@@ -20,6 +20,7 @@ Template Name: Categoria
 		case 'camionetas-y-camperos': $sfx = '_camionetas_y_camperos'; $icon = 'fa-car'; break;
 		case 'automoviles': $sfx = '_automoviles'; $icon = 'fa-car'; break;
 		case 'buses': $sfx = '_buses'; $icon = 'fa-car'; break;
+		case 'motos': $sfx = '_motos'; $icon = 'fa-car'; break;
 		case 'equipos-electronicos-y-de-comunicacion': $sfx = '_equipos_electronicos_y_de_comunicacion'; $icon = 'fa-desktop'; break;
 		case 'sector-petrolero': $sfx = '_sector_petrolero'; $icon = 'fa-industry'; break;
 		case 'inmobiliarios-oficina': $sfx = '_inmobiliarios_oficina'; $icon = 'fa-briefcase'; break;

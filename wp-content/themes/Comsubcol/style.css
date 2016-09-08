@@ -243,6 +243,10 @@ a.hideLink {
 	background-image: url(assets/images/categorias_buses.jpg);
 }
 
+#page-heading.categorias_motos {
+	background-image: url(assets/images/categorias_motos.jpg);
+}
+
 #page-heading.categorias_equipos_electronicos_y_de_comunicacion {
 	background-image: url(assets/images/categorias_equipos_electronicos_y_de_comunicacion.jpg);
 }
@@ -562,6 +566,12 @@ ul#menu-categories-menu a {
 ul#menu-categories-menu li.current-menu-item a,
 ul#menu-categories-menu a:hover {
 	color: #ED1C24;
+}
+
+ul#menu-categories-menu ul.sub-menu {
+	margin: 0;
+	padding: 0;
+	display: none;
 }
 
 .csc_title_categories h2 {

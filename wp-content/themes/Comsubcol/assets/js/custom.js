@@ -407,6 +407,14 @@ jQuery(document).ready(function ($) {
 		$( '#example' ).css( 'display', 'none' );
 	});
 
+	/* Categorías Menu */
+
+	$( 'ul#menu-categories-menu li.menu-item-has-children' ).hover(function() {
+		$( this ).children( '.sub-menu' ).slideDown( 200 );
+	}, function() {
+		$( this ).children( '.sub-menu' ).slideUp( 200 );
+	});
+
 	/* Left Menu */
 
 	$( '.left_main' ).click(function( event ) {
@@ -443,6 +451,7 @@ jQuery(document).ready(function ($) {
 			$( this ).text( text.replace( text_1, text_2 ) );
 		});
 	}
+	text_replace( '.um-field-label label', 'Password', 'Contraseña' );
 	text_replace( '.wdm-mark-normal', 'days', 'días' );
 	text_replace( '.wdm_bidding_price strong', 'No Bid', 'Sin Ofertas' );
 	text_replace( '#wdm-total-bids-link', 'Bids', 'Ofertas' );
