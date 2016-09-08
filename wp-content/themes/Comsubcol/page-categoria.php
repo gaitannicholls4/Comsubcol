@@ -8,7 +8,30 @@ Template Name: Categoria
 
 ?>
 <?php get_header(); ?>
-	<div id="page-heading" class="categorias">
+	<?php
+	$post_id = get_the_ID();
+	$post = get_post( $post_id );
+	$slug = $post->post_name;
+	switch ( $slug ) {
+		default: $sfx = ''; $icon = 'fa-shopping-cart'; break;
+		case 'inmuebles': $sfx = '_inmuebles'; $icon = 'fa-home'; break;
+		case 'vehiculos': $sfx = '_vehiculos'; $icon = 'fa-car'; break;
+		case 'camiones': $sfx = '_camiones'; $icon = 'fa-car'; break;
+		case 'camionetas-y-camperos': $sfx = '_camionetas_y_camperos'; $icon = 'fa-car'; break;
+		case 'automoviles': $sfx = '_automoviles'; $icon = 'fa-car'; break;
+		case 'buses': $sfx = '_buses'; $icon = 'fa-car'; break;
+		case 'equipos-electronicos-y-de-comunicacion': $sfx = '_equipos_electronicos_y_de_comunicacion'; $icon = 'fa-desktop'; break;
+		case 'sector-petrolero': $sfx = '_sector_petrolero'; $icon = 'fa-industry'; break;
+		case 'inmobiliarios-oficina': $sfx = '_inmobiliarios_oficina'; $icon = 'fa-briefcase'; break;
+		case 'equipos-medicos': $sfx = '_equipos_medicos'; $icon = 'fa-medkit'; break;
+		case 'maquinaria-y-equipos-especiales': $sfx = '_maquinaria_y_equipos_especiales'; $icon = 'fa-truck'; break;
+		case 'chatarra': $sfx = '_chatarra'; $icon = 'fa-cog'; break;
+		case 'obras-de-arte': $sfx = '_obras_de_arte'; $icon = 'fa-picture-o'; break;
+		case 'joyas': $sfx = '_joyas'; $icon = 'fa-spinner'; break;
+		case 'vip': $sfx = '_vip'; $icon = 'fa-star'; break;
+	}
+	?>
+	<div id="page-heading" class="categorias<?php echo $sfx; ?>">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center black">
@@ -25,25 +48,6 @@ Template Name: Categoria
 				<div class="col-md-12">
 					<div class="heading-section-2 text-center">
 						<h2><?php the_title(); ?></h2>
-						<?php
-						$post_id = get_the_ID();
-						$post = get_post( $post_id );
-						$slug = $post->post_name;
-						switch ( $slug ) {
-							default: $icon = 'fa-shopping-cart'; break;
-							case 'inmuebles': $icon = 'fa-home'; break;
-							case 'vehiculos': $icon = 'fa-car'; break;
-							case 'equipos-electronicos-y-de-comunicacion': $icon = 'fa-desktop'; break;
-							case 'sector-petrolero': $icon = 'fa-industry'; break;
-							case 'inmobiliarios-oficina': $icon = 'fa-briefcase'; break;
-							case 'equipos-medicos': $icon = 'fa-medkit'; break;
-							case 'maquinaria-y-equipos-especiales': $icon = 'fa-truck'; break;
-							case 'chatarra': $icon = 'fa-cog'; break;
-							case 'obras-de-arte': $icon = 'fa-picture-o'; break;
-							case 'joyas': $icon = 'fa-spinner'; break;
-							case 'vip': $icon = 'fa-star'; break;
-						}
-						?>
 						<div class="dec"><i class="fa <?php echo $icon; ?>"></i></div>
 						<div class="line-dec"></div>
 					</div>

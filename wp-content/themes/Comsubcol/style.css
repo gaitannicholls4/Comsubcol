@@ -207,8 +207,76 @@ a.hideLink {
 	background-image: url(assets/images/quienes-somos.jpg);
 }
 
+#page-heading.por-que-preferirnos {
+	background-image: url(assets/images/por-que-preferirnos.jpg);
+}
+
+#page-heading.servicios {
+	background-image: url(assets/images/servicios.jpg);
+}
+
 #page-heading.categorias {
 	background-image: url(assets/images/categorias.jpg);
+}
+
+#page-heading.categorias_inmuebles {
+	background-image: url(assets/images/categorias_inmuebles.jpg);
+}
+
+#page-heading.categorias_vehiculos {
+	background-image: url(assets/images/categorias_vehiculos.jpg);
+}
+
+#page-heading.categorias_camiones {
+	background-image: url(assets/images/categorias_camiones.jpg);
+}
+
+#page-heading.categorias_camionetas_y_camperos {
+	background-image: url(assets/images/categorias_camionetas_y_camperos.jpg);
+}
+
+#page-heading.categorias_automoviles {
+	background-image: url(assets/images/categorias_automoviles.jpg);
+}
+
+#page-heading.categorias_buses {
+	background-image: url(assets/images/categorias_buses.jpg);
+}
+
+#page-heading.categorias_equipos_electronicos_y_de_comunicacion {
+	background-image: url(assets/images/categorias_equipos_electronicos_y_de_comunicacion.jpg);
+}
+
+#page-heading.categorias_sector_petrolero {
+	background-image: url(assets/images/categorias_sector_petrolero.jpg);
+}
+
+#page-heading.categorias_inmobiliarios_oficina {
+	background-image: url(assets/images/categorias_inmobiliarios_oficina.jpg);
+}
+
+#page-heading.categorias_equipos_medicos {
+	background-image: url(assets/images/categorias_equipos_medicos.jpg);
+}
+
+#page-heading.categorias_maquinaria_y_equipos_especiales {
+	background-image: url(assets/images/categorias_maquinaria_y_equipos_especiales.jpg);
+}
+
+#page-heading.categorias_chatarra {
+	background-image: url(assets/images/categorias_chatarra.jpg);
+}
+
+#page-heading.categorias_obras_de_arte {
+	background-image: url(assets/images/categorias_obras_de_arte.jpg);
+}
+
+#page-heading.categorias_joyas {
+	background-image: url(assets/images/categorias_joyas.jpg);
+}
+
+#page-heading.categorias_vip {
+	background-image: url(assets/images/categorias_vip.jpg);
 }
 
 #page-heading.buscar {

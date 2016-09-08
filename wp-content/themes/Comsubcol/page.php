@@ -1,6 +1,16 @@
 <?php get_header(); ?>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<div id="page-heading" class="general">
+	<?php
+	$post_id = get_the_ID();
+	$post = get_post( $post_id );
+	$slug = $post->post_name;
+	switch ( $slug ) {
+		default: $sfx = 'general'; break;
+		case 'por-que-preferirnos': $sfx = 'por-que-preferirnos'; break;
+		case 'servicios': $sfx = 'servicios'; break;
+	}
+	?>
+	<div id="page-heading" class="<?php echo $sfx; ?>">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center black">

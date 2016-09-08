@@ -18,7 +18,7 @@
 		<li><a href="/categorias/equipos-medicos" class="l_equipos_medicos">Equipos Médicos</a></li>
 		<li><a href="/categorias/maquinaria-y-equipos-especiales" class="l_maquinaria_y_equipos_especiales">Maquinaria y Equipos Especiales</a></li>
 		<li><a href="/categorias/chatarra" class="l_chatarra">Chatarra</a></li>
-		<li><a href="/categorias/obras_de_arte" class="l_obras_de_arte">Obras de Arte</a></li>
+		<li><a href="/categorias/obras-de-arte" class="l_obras_de_arte">Obras de Arte</a></li>
 		<li><a href="/categorias/joyas" class="l_joyas">Joyas</a></li>
 		<?php if ( is_user_logged_in() ) { ?><li><a href="/categorias/vip" class="l_vip">VIP</a></li><?php } ?>
 	</ul>
