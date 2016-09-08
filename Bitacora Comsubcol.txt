@@ -29,6 +29,7 @@ part-header.php ( Listo NV )
 part-left-menu.php ( Listo NV )
 part-slider-1.php ( Listo NV )
 part-slider-2.php ( Listo NV )
+part-slider-3.php ( Listo NV )
 part-slider.php ( Listo NV )
 style.css NV ->
 
