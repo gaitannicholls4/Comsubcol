@@ -46,12 +46,14 @@ Template Name: Buscar
 					<div id="featured-cars">
 						<div class="row">
 							<?php
+							$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 							$args = array(
 								's' => $item_subasta,
 								'posts_per_page' => 9,
 								'post_type' => 'ultimate-auction',
 								'post_status' => 'publish',
 								'auction-status' => 'live',
+								'paged' => $paged,
 								'suppress_filters' => false
 							);
 							$wdm_auction_array = get_posts( $args );
@@ -132,6 +134,11 @@ Template Name: Buscar
 							<?php } ?>
 						</div>
 					</div>
+					<?php
+					$my_query = new WP_Query();
+					$my_query->query( $args );
+					custom_pagination( $my_query->max_num_pages );
+					?>
 				</div>
 			</div>
 		</div>

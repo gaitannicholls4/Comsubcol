@@ -80,7 +80,7 @@ nav.main-navigation ul li:last-child #example {
 }
 
 nav.main-navigation ul li:last-child #example i {
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
 nav.main-navigation ul a {
@@ -392,6 +392,23 @@ section.car-details {
 
 #left-info .details .list-info ul li {
 	color: #ED1C24;
+}
+
+.pagination {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.pagination a,
+.pagination span {
+	font-size: 12px;
+	display: inline-block;
+	float: none;
+}
+
+.pagination a:hover,
+.pagination span.current {
+	background-color: #ED1C24;
 }
 
 .contact-form #contact_form input.name {

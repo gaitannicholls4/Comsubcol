@@ -63,12 +63,14 @@ Template Name: Categoria
 					<div id="featured-cars">
 						<div class="row">
 							<?php
+							$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 							$args = array(
 								'posts_per_page' => 9,
 								'post_type' => 'ultimate-auction',
 								'post_status' => 'publish',
 								'auction-status' => 'live',
 								'ua-auction-category' => $slug,
+								'paged' => $paged,
 								'suppress_filters' => false
 							);
 							$wdm_auction_array = get_posts( $args );
@@ -149,6 +151,11 @@ Template Name: Categoria
 							<?php } ?>
 						</div>
 					</div>
+					<?php
+					$my_query = new WP_Query();
+					$my_query->query( $args );
+					custom_pagination( $my_query->max_num_pages );
+					?>
 				</div>
 			</div>
 		</div>
