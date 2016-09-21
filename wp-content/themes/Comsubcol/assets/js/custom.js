@@ -427,6 +427,23 @@ jQuery(document).ready(function ($) {
 		$( this ).children( '.left_menu_level_2' ).slideUp( 200 );
 	});
 
+	/* Nuestros Clientes */
+
+	var nuestros_clientes = $( '#nuestros-clientes' );
+	nuestros_clientes.owlCarousel({
+		autoPlay: 3000,
+		itemsCustom: [
+			[0, 1],
+			[400, 4]
+		]
+	});
+	$( '.prev' ).click(function() {
+		nuestros_clientes.trigger( 'owl.prev' );
+	});
+	$( '.next' ).click(function() {
+		nuestros_clientes.trigger( 'owl.next' );
+	});
+
 	/* Categorías */
 
 	var categorias = $( '#menu-categories-menu' );

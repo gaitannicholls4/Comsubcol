@@ -29,5 +29,10 @@
 			</div>
 		</div>
 	</section>
+	<?php
+	if ( $slug == 'servicios' ) {
+		get_template_part( 'part', 'servicios-gallery' );
+	}
+	?>
 	<?php endwhile; endif; ?>
 <?php get_footer(); ?>

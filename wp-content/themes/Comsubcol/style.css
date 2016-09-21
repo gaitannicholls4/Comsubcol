@@ -531,6 +531,54 @@ section.car-details {
 	background-color: #F5FAFE;
 }
 
+/* Nuestros Clientes */
+
+.csc_nc_wrap {
+	padding: 20px 0 70px 0;
+	background-color: #000;
+}
+
+.csc_nc_wrap h2 {
+	margin: 0;
+	margin-bottom: 20px;
+	color: #FFF;
+	text-align: center;
+}
+
+.csc_nc_wrap .container,
+.csc_nc_wrap .col-xs-1,
+.csc_nc_wrap .col-xs-10 {
+	padding: 0;
+}
+
+.csc_nc_wrap ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.csc_nc_wrap li {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.csc_nc_wrap a.prev {
+	background: url(assets/images/owl_prev_white.png) no-repeat;
+	background-position: left;
+}
+
+.csc_nc_wrap a.next {
+	background: url(assets/images/owl_next_white.png) no-repeat;
+	background-position: right;
+}
+
+.csc_nc_wrap a.prev,
+.csc_nc_wrap a.next {
+	font-size: 0;
+	line-height: 45px;
+}
+
 /* Categorías */
 
 .csc_menu_categories .container,
