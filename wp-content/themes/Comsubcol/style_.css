@@ -38,13 +38,13 @@ Version: 1.0
 }
 
 .site-header .main-header .logo {
-	margin-right: 2px;
-	padding-right: 2px;
+	margin-right: 5px;
+	padding-right: 5px;
 	border-right: none;
 }
 
 nav.main-navigation ul li {
-	padding: 45px 2px;
+	padding: 45px 4px;
 }
 
 nav.main-navigation ul li:nth-child(8) {

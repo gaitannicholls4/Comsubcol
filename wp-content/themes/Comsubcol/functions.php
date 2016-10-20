@@ -72,6 +72,9 @@ function my_custom_menu_item( $items, $args ) {
 			$items .= '<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>'; // # - Dashboard
 			$items .= '<li><a href="/wp-admin" target="_blank"><i class="fa fa-user"></i></a></li>'; // Administrador - Cerrar Sesión
 		}
+		$items .= '<li><a href="https://www.facebook.com/Comsubcol-SAS-1116634048391880" target="_blank"><i class="fa fa-facebook"></i></a></li>'; // Facebook
+		$items .= '<li><a href="https://www.twitter.com/ComsubcolSAS" target="_blank"><i class="fa fa-twitter"></i></a></li>'; // Twitter
+		$items .= '<li><a href="https://www.instagram.com/ComsubcolSAS" target="_blank"><i class="fa fa-instagram"></i></a></li>'; // Instagram
 		if ( isset( $_POST[ 'item_subasta' ] ) ) {
 			$item_subasta = $_POST[ 'item_subasta' ];
 		} else {
